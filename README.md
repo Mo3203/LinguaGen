@@ -10,6 +10,10 @@ Illustrated sentences · spoken recordings · measured practice audio · unit vi
 ![React](https://img.shields.io/badge/app-React%2018-61DAFB?logo=react&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.6-3178C6?logo=typescript&logoColor=white)
 ![Vite](https://img.shields.io/badge/build-Vite%205-646CFF?logo=vite&logoColor=white)
+![LLM](https://img.shields.io/badge/LLM-Llama%203.1%208B%20%C2%B7%20Ollama-8B6B4A)
+![Speech](https://img.shields.io/badge/speech-Piper%20%C2%B7%20Kokoro-8B6B4A)
+![Images](https://img.shields.io/badge/images-Diffusers-8B6B4A)
+![Compute](https://img.shields.io/badge/compute-Colab%20T4-F9AB00?logo=googlecolab&logoColor=white)
 ![Offline](https://img.shields.io/badge/works-offline-2E7D32)
 ![Cost](https://img.shields.io/badge/recurring%20cost-%240-2E7D32)
 
@@ -42,6 +46,7 @@ Illustrated sentences · spoken recordings · measured practice audio · unit vi
 - [What it produces](#what-it-produces)
 - [The learning method](#the-learning-method)
 - [How it works](#how-it-works)
+- [AI and technology stack](#ai-and-technology-stack)
 - [Quick start](#quick-start)
 - [Repository layout](#repository-layout)
 - [Adding a language](#adding-a-language)
@@ -163,15 +168,47 @@ Two consequences: the app runs with **no content at all** (so it is testable and
 
 **Offline by design.** A service worker serves the page and `bundle.json` network-first (so a redeploy is picked up), and hashed assets and media cache-first. It also answers byte-range requests from stored files, so video plays from the device.
 
-### Technology
+---
 
-| Area | Choices |
+## AI and technology stack
+
+![Where AI is used, and where it is not](docs/images/10-ai-stack.png)
+
+Three generative models do the creative work, and they all run on a free cloud GPU. The rest of the system is ordinary, deterministic code.
+
+### AI components
+
+| Stage | What the model does | Model and tooling | Notes |
+|---|---|---|---|
+| **Scene descriptions** | Writes a scene description and an introductory line for each word, in the target language and a matching cultural setting | Large language model: **Llama 3.1 (8B)**, served locally by **Ollama** | Prompt language and setting come from the language profile. The prompt carries a version string. Output is not deterministic, so the generated scripts are saved and backed up. |
+| **Speech** | Speaks every word in citation form and every sentence in three registers | Neural text to speech: **Piper** (German), **Kokoro** (French, with `espeak-ng`) | Voices sit behind a small adapter interface (`tts_adapters.py`), so a new language can bring its own voice. |
+| **Illustrations** | Draws one picture per scene | Diffusion image model through **Hugging Face Diffusers** (with Transformers and Accelerate) | Identical scenes are deduplicated by content. The model is changed in the image notebook, then the image version string is bumped. |
+| **Browser speech** | Fallback voice when a generated recording is missing | The browser's built-in speech synthesis | Missing media degrades one item at a time, never a whole screen. |
+
+### How the AI is kept under control
+
+- **The learning content is not generated.** Words and sentences come from your dataset, validated by a **Pandera** schema before anything runs. The models decorate and voice that content; they do not invent what the learner is tested on.
+- **Reproducible and swappable.** Every artefact is named by a hash of its input plus a component version string. Change a model, bump its version, and only that stage regenerates.
+- **Non-determinism is contained.** Because a language model gives different output on each run, its scene scripts are treated as irreplaceable masters and kept outside the working drive.
+- **Local and free.** The pipeline calls no hosted AI service, needs no AI account or key, and has no per-use cost.
+- **No AI at study time.** The study app is static files. It makes no AI calls, works offline, and keeps progress on the device, so no learner data is sent anywhere.
+
+### Full stack
+
+| Layer | Technology |
 |---|---|
-| Pipeline | Python · pandas · Pandera · Pydantic · Pillow · ffmpeg |
-| Generative models | Local language model · neural text to speech · diffusion model |
-| Application | React 18 · TypeScript · Vite. No runtime dependencies beyond React: the scheduler, dictation comparison and session machine are written directly. About 65 KB compressed. |
-| Delivery | Static files. Local server for the full version, static host for the published version |
-| Storage | Cloud drive for the project and masters · browser cache for media · browser storage for progress |
+| **Pipeline language** | Python 3 |
+| **Data and validation** | CSV datasets · pandas · Pandera (dataset validation) · Pydantic (artefact schemas) |
+| **Generative AI** | Ollama + Llama 3.1 8B · Piper · Kokoro · Hugging Face Diffusers, Transformers, Accelerate |
+| **Media processing** | ffmpeg (audio assembly and encoding) · Pillow (frame rendering) · soundfile · Opus audio · WebP images |
+| **Production panel** | Gradio web page with sign-in, run from the Colab notebook through a temporary public link (`bin/panel.py`) |
+| **Compute and storage** | Google Colab (T4 GPU) · Google Drive for the project and masters |
+| **Application** | React 18 · TypeScript 5.6 · Vite 5 · Node 18+. No runtime dependency beyond React; about 65 KB compressed. |
+| **Learning logic** | Hand-written spaced-repetition scheduler (interval, ease factor, repetitions, lapses) · dictation comparison with accent and ß equivalences · session state machine |
+| **Offline and install** | Service worker (network-first shell and manifest, cache-first media, byte-range support for video) · web app manifest for phone install |
+| **Hosting and deploy** | Netlify static hosting, deployed through its API by `bin/publish.py`, which sends only files whose fingerprints changed |
+| **Source control** | GitHub |
+| **Reproducibility** | Exact-pinned dependencies (`package-lock.json`, `requirements.txt`) · content-addressed artefacts |
 
 ---
 
@@ -292,6 +329,7 @@ Next steps are driven by use, not by a feature list written in advance: which st
 
 | Document | Contents |
 |---|---|
+| [`docs/Language_System_Reference.docx`](docs/Language_System_Reference.docx) | The full system reference: method, architecture, extension guide |
 | [`docs/PRODUCTION.md`](docs/PRODUCTION.md) | Step-by-step production guide |
 | [`docs/LANGUAGES.md`](docs/LANGUAGES.md) | How a language is described |
 
