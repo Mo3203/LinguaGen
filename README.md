@@ -328,7 +328,6 @@ Next steps are driven by use, not by a feature list written in advance: which st
 
 | Document | Contents |
 |---|---|
-| [`docs/Language_System_Reference.docx`](docs/Language_System_Reference.docx) | The full system reference: method, architecture, extension guide |
 | [`docs/PRODUCTION.md`](docs/PRODUCTION.md) | Step-by-step production guide |
 | [`docs/LANGUAGES.md`](docs/LANGUAGES.md) | How a language is described |
 
