@@ -21,6 +21,17 @@ Illustrated sentences · spoken recordings · measured practice audio · unit vi
 
 <br>
 
+<table>
+  <tr>
+    <td align="center" width="25%"><img src="docs/images/06-app-study-home.png" alt="Study home screen" width="100%"><br><sub><b>Study</b><br>topics, resume, scheduled review</sub></td>
+    <td align="center" width="25%"><img src="docs/images/07-app-video-step.png" alt="Video step with guided pauses" width="100%"><br><sub><b>Video step</b><br>pauses after each line to repeat aloud</sub></td>
+    <td align="center" width="25%"><img src="docs/images/08-app-progress.png" alt="Progress dashboard" width="100%"><br><sub><b>Progress</b><br>vocabulary stages, dictation accuracy</sub></td>
+    <td align="center" width="25%"><img src="docs/images/09-app-offline.png" alt="Offline downloads by topic" width="100%"><br><sub><b>Offline</b><br>download by topic, videos optional</sub></td>
+  </tr>
+</table>
+
+<br>
+
 ![From dataset to installed application](docs/images/01-pipeline-to-app.png)
 
 ---
@@ -64,7 +75,7 @@ Neither half knows how the other works. The pipeline writes files into a defined
 
 ## What it produces
 
-Figures from the finished French dataset:
+The German build currently holds **600 words in 136 units across 39 topics**. Figures below are from the finished French dataset:
 
 | Artefact | Quantity | Purpose |
 |---|---:|---|
@@ -142,6 +153,13 @@ The core holds all learning logic and imports nothing outward. Everything it nee
 | **State** | Review schedule, session progress, settings | Browser storage, with export and import |
 
 Two consequences: the app runs with **no content at all** (so it is testable and demonstrable), and missing assets degrade **one item at a time** instead of breaking a screen.
+
+**What the learner sees**
+
+- **Study home.** Topics with per-topic progress, a *Resume* card that returns to the exact step and pass where the last session stopped, and a *Scheduled review* card that shows how many words are due. Topics and words are searchable.
+- **Guided video.** Playback speed from 0.5× to 1.25×, a *German only* variant and a *Scene by scene* variant, a *Say it aloud* prompt with *Hear again*, and any completed pass can be repeated.
+- **Progress.** Vocabulary stages (not started, learning, consolidating, established), sessions over the last fourteen days, and dictation accuracy across the last 60 sentences.
+- **Offline.** Download everything or one topic at a time, with a switch to leave out the large videos while keeping every illustration and recording.
 
 **Offline by design.** A service worker serves the page and `bundle.json` network-first (so a redeploy is picked up), and hashed assets and media cache-first. It also answers byte-range requests from stored files, so video plays from the device.
 
