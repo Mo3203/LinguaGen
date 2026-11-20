@@ -19,7 +19,6 @@ Illustrated sentences · spoken recordings · measured practice audio · unit vi
 
 **French: finished · German: in production**
 
-[**Open the German app →**](https://learning-german-platform.netlify.app)
 
 </div>
 
