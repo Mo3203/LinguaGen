@@ -1,0 +1,13 @@
+# The Python tools the pipeline and the production page use.
+#   python3 -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt
+pandas
+pandera
+pydantic
+numpy
+soundfile
+pillow
+requests
+gradio
+piper-tts          # German voice
+# kokoro           # French voice; needs espeak-ng. Only for producing French.
+# diffusers transformers accelerate torch   # pictures; needs a graphics processor (Colab)

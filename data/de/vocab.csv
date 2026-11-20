@@ -1,0 +1,601 @@
+id,language,vocab,english_meaning,pos,gender,plural,topic,tier,notes
+de_0001,de,hallo,hello; hi,interjection,,,greetings,1,
+de_0002,de,ich,I,pronoun,,,pronouns,1,
+de_0003,de,du,"you (informal, singular)",pronoun,,,pronouns,1,informal address
+de_0004,de,sein,to be,verb,,,core_verbs,1,"irregular: bin, bist, ist, sind, seid"
+de_0005,de,ja,yes; (tag) right?,particle,,,greetings,1,
+de_0006,de,nein,no,particle,,,greetings,1,
+de_0007,de,guten Tag,hello; good day (daytime greeting),phrase,,,greetings,1,fixed chunk; do not analyze the -en ending
+de_0008,de,gut,good; fine; well,adjective,,,adjectives,1,predicative only at A1; also adverb (Es geht gut)
+de_0009,de,danke,thanks; thank you,interjection,,,greetings,1,
+de_0010,de,bitte,"please; you're welcome; here you are; (Ja, bitte?) can I help you?",interjection,,,greetings,1,
+de_0011,de,und,and,conjunction,,,function_words,1,"glue word (§7.1), taught here"
+de_0012,de,Sie,"you (formal, singular and plural)",pronoun,,,pronouns,1,always capitalized; verb form = sind
+de_0013,de,wie geht's,how are you (wie geht es dir? / wie geht es Ihnen?); Es geht. = I'm okay,phrase,,,greetings,1,"fixed chunk; dir/Ihnen are dative, learned inside the chunk only"
+de_0014,de,hier,here,adverb,,,places,1,
+de_0015,de,da,there; here (present); da sein = to be in / around,adverb,,,places,1,
+de_0016,de,heute,today,adverb,,,time,1,
+de_0017,de,morgen,tomorrow,adverb,,,time,1,lowercase adverb; distinct from der Morgen
+de_0018,de,bis,until; (bis morgen) see you tomorrow,preposition,,,time,1,time sense only at A1
+de_0019,de,jetzt,now,adverb,,,time,1,
+de_0020,de,tschüss,bye,interjection,,,greetings,1,informal-to-neutral; fine with strangers in shops
+de_0021,de,auf Wiedersehen,goodbye (formal),phrase,,,greetings,1,fixed chunk
+de_0022,de,guten Morgen,good morning,phrase,,,greetings,1,fixed chunk
+de_0023,de,Entschuldigung,excuse me; sorry,interjection,,,greetings,1,"taught as formula; the noun die Entschuldigung, -en is not needed at A1"
+de_0024,de,Kaffee,coffee,noun,m,-s,food_drink,1,
+de_0025,de,Wasser,water,noun,n,,food_drink,1,no plural
+de_0026,de,Auto,car,noun,n,-s,transport,1,
+de_0027,de,Haus,house,noun,n,¨-er,home,1,
+de_0028,de,Milch,milk,noun,f,,food_drink,1,no plural
+de_0029,de,er,he,pronoun,,,pronouns,1,
+de_0030,de,sie,she; they,pronoun,,,pronouns,1,"lowercase; she = ist, they = sind"
+de_0031,de,es,it,pronoun,,,pronouns,1,
+de_0032,de,wir,we,pronoun,,,pronouns,1,
+de_0033,de,haben,to have,verb,,,core_verbs,1,"irregular: habe, hast, hat, haben, habt"
+de_0034,de,Mann,man; husband,noun,m,¨-er,people,1,
+de_0035,de,Frau,woman; wife; Mrs / Ms (title),noun,f,-en,people,1,
+de_0036,de,Kind,child,noun,n,-er,family,1,
+de_0037,de,das ist,this is; that is,phrase,,,core_chunks,1,"fixed chunk; question form Ist das ...?; fixed expression, not a noun"
+de_0038,de,der,the (masculine),article,,,function_words,1,nominative; accusative den introduced later
+de_0039,de,die,the (feminine; also plural),article,,,function_words,1,
+de_0040,de,das,the (neuter); also that / this one (demonstrative),article,,,function_words,1,
+de_0041,de,ein,"a, an (masculine and neuter)",article,,,function_words,1,masculine accusative einen introduced later
+de_0042,de,eine,"a, an (feminine)",article,,,function_words,1,
+de_0043,de,kein,no; not a; not any (negates ein- or article-less nouns),article,,,negation,1,forms kein / keine; keinen later; contrast with nicht (§7.6)
+de_0044,de,nicht,"not (negates verbs, adjectives, definite phrases)",adverb,,,negation,1,contrast with kein (§7.6)
+de_0045,de,auch,also; too,adverb,,,function_words,1,
+de_0046,de,sehr,very,adverb,,,function_words,1,
+de_0047,de,es gibt,there is; there are,phrase,,,core_chunks,1,takes the accusative; no masculine accusative used at this stage
+de_0048,de,mein,my,pronoun,,,possessives,1,possessive; feminine / plural form meine
+de_0049,de,dein,your (informal),pronoun,,,possessives,1,possessive; feminine / plural form deine
+de_0050,de,Freund,friend (male); boyfriend,noun,m,-e,people,1,
+de_0051,de,Freundin,friend (female); girlfriend,noun,f,-nen,people,1,
+de_0052,de,oder,or,conjunction,,,function_words,1,"glue word (§7.1), taught here"
+de_0053,de,aber,but,conjunction,,,function_words,1,"glue word (§7.1), taught here"
+de_0054,de,Herr,Mr; gentleman,noun,m,-en,people,1,n-declension (Herrn) not used at A1
+de_0055,de,wo,where,adverb,,,question_words,1,interrogative; neutral register = formal question
+de_0056,de,was,what,pronoun,,,question_words,1,interrogative
+de_0057,de,wer,who,pronoun,,,question_words,1,interrogative (nominative only at A1)
+de_0058,de,wie,how; what ... like; (Wie bitte?) pardon?,adverb,,,question_words,1,interrogative
+de_0059,de,kommen,to come,verb,,,core_verbs,1,"komme, kommst, kommt, kommen; imperative komm"
+de_0060,de,aus,from; out of; (predicative) off (Das Radio ist aus),preposition,,,function_words,1,takes the dative; used with place names (no article) at A1
+de_0061,de,gehen,to go; to walk; to leave,verb,,,core_verbs,1,"gehe, gehst, geht; imperative geh"
+de_0062,de,nach,to (with place names); after,preposition,,,function_words,1,takes the dative; place sense at A1
+de_0063,de,zu Hause / nach Hause,at home / (going) home,phrase,,,home,1,fixed chunks; Hause only inside these
+de_0064,de,in,in (location),preposition,,,function_words,1,location sense only; in + city name; im for in dem
+de_0065,de,wohnen,to live (reside),verb,,,core_verbs,1,"wohne, wohnst, wohnt"
+de_0066,de,heißen,to be called,verb,,,core_verbs,1,"heiße, heißt, heißt"
+de_0067,de,machen,to make; to do,verb,,,core_verbs,1,"mache, machst, macht; imperative mach"
+de_0068,de,Deutsch,German (language),noun,n,,language,1,no plural; capitalized as language name
+de_0069,de,sprechen,to speak,verb,,,core_verbs,1,"irregular: spreche, sprichst, spricht; imperative sprich"
+de_0070,de,Englisch,English (language),noun,n,,language,1,no plural
+de_0071,de,trinken,to drink,verb,,,core_verbs,1,"trinke, trinkst, trinkt; imperative trink"
+de_0072,de,gern,gladly; (with a verb) to like doing,adverb,,,function_words,1,verb + gern = like doing; also gerne
+de_0073,de,essen,to eat,verb,,,core_verbs,1,"irregular: esse, isst, isst; imperative iss"
+de_0074,de,arbeiten,to work,verb,,,core_verbs,1,"arbeite, arbeitest, arbeitet"
+de_0075,de,lernen,to learn; to study (a language),verb,,,core_verbs,1,"lerne, lernst, lernt"
+de_0076,de,verstehen,to understand,verb,,,core_verbs,1,"verstehe, verstehst, versteht"
+de_0077,de,sagen,to say,verb,,,core_verbs,1,"sage, sagst, sagt; imperative sag"
+de_0078,de,sehen,to see,verb,,,core_verbs,1,"irregular: sehe, siehst, sieht; imperative sieh"
+de_0079,de,kaufen,to buy,verb,,,core_verbs,1,"kaufe, kaufst, kauft; +Akk"
+de_0080,de,brauchen,to need,verb,,,core_verbs,1,"brauche, brauchst, braucht; +Akk"
+de_0081,de,wissen,to know (a fact),verb,,,core_verbs,1,"irregular: weiß, weißt, weiß, wissen"
+de_0082,de,kennen,"to know (a person, place, thing)",verb,,,core_verbs,1,"kenne, kennst, kennt; +Akk"
+de_0083,de,finden,to find; to think (of something),verb,,,core_verbs,1,"finde, findest, findet; +Akk"
+de_0084,de,nehmen,to take,verb,,,core_verbs,1,"irregular: nehme, nimmst, nimmt; imperative nimm; +Akk"
+de_0085,de,geben,to give,verb,,,core_verbs,1,"irregular: gebe, gibst, gibt; imperative gib"
+de_0086,de,mir,(to) me,pronoun,,,pronouns,1,"dative of ich; used only in fixed high-frequency chunks (gib mir, schreib mir, hilf mir, mir ist kalt)"
+de_0087,de,fahren,to go (by vehicle); to drive,verb,,,core_verbs,1,"irregular: fahre, fährst, fährt; imperative fahr"
+de_0088,de,bleiben,to stay,verb,,,core_verbs,1,"bleibe, bleibst, bleibt; imperative bleib"
+de_0089,de,schlafen,to sleep,verb,,,core_verbs,1,"irregular: schlafe, schläfst, schläft; imperative schlaf"
+de_0090,de,spielen,to play,verb,,,core_verbs,1,"spiele, spielst, spielt"
+de_0091,de,hören,to hear; to listen,verb,,,core_verbs,1,"höre, hörst, hört; imperative hör"
+de_0092,de,lesen,to read,verb,,,core_verbs,1,"irregular: lese, liest, liest; imperative lies"
+de_0093,de,schreiben,to write,verb,,,core_verbs,1,"schreibe, schreibst, schreibt; imperative schreib"
+de_0094,de,viel,much; a lot; (viele) many,adverb,,,function_words,1,"quantifier: viel Kaffee (uncountable), viele Kinder (countable)"
+de_0095,de,zu,too (zu viel); (predicative) closed (Das Geschäft ist zu),adverb,,,function_words,1,glue word (§7.1); the preposition zu appears only in zum/zur/zu Hause
+de_0096,de,immer,always,adverb,,,time,1,
+de_0097,de,oft,often,adverb,,,time,1,
+de_0098,de,schon,already; (Schon gut!) it's fine,adverb,,,time,1,
+de_0099,de,noch,still; yet; another (noch ein),adverb,,,time,1,
+de_0100,de,wieder,again,adverb,,,time,1,
+de_0101,de,groß,big; tall,adjective,,,adjectives,1,predicative only
+de_0102,de,klein,small; little,adjective,,,adjectives,1,predicative only
+de_0103,de,neu,new,adjective,,,adjectives,1,predicative only
+de_0104,de,schön,beautiful; nice,adjective,,,adjectives,1,predicative only
+de_0105,de,alt,old; (wie alt) how old,adjective,,,adjectives,1,predicative only
+de_0106,de,schlecht,bad,adjective,,,adjectives,1,predicative only
+de_0107,de,teuer,expensive,adjective,,,shopping,1,predicative only
+de_0108,de,billig,cheap,adjective,,,shopping,1,predicative only
+de_0109,de,kalt,cold,adjective,,,weather,1,predicative only; Mir ist kalt = I'm cold (fixed chunk)
+de_0110,de,warm,warm,adjective,,,weather,1,predicative only
+de_0111,de,heiß,hot,adjective,,,weather,1,predicative only
+de_0112,de,müde,tired,adjective,,,adjectives,1,predicative only
+de_0113,de,richtig,right; correct,adjective,,,adjectives,1,predicative only
+de_0114,de,falsch,wrong,adjective,,,adjectives,1,predicative only
+de_0115,de,lecker,tasty; delicious,adjective,,,food_drink,1,predicative only
+de_0116,de,fertig,finished; ready,adjective,,,adjectives,1,predicative only
+de_0117,de,langsam,slow; slowly,adjective,,,adjectives,1,also adverb
+de_0118,de,schnell,fast; quickly,adjective,,,adjectives,1,also adverb
+de_0119,de,laut,loud,adjective,,,adjectives,1,predicative only
+de_0120,de,leise,quiet; quietly,adjective,,,adjectives,1,also adverb
+de_0121,de,rot,red,adjective,,,colors,1,predicative only
+de_0122,de,blau,blue,adjective,,,colors,1,predicative only
+de_0123,de,grün,green,adjective,,,colors,1,predicative only
+de_0124,de,gelb,yellow,adjective,,,colors,1,predicative only
+de_0125,de,schwarz,black,adjective,,,colors,1,predicative only
+de_0126,de,weiß,white,adjective,,,colors,1,predicative only; identical in form to weiß (I know)
+de_0127,de,dort,there,adverb,,,places,1,
+de_0128,de,zusammen,together,adverb,,,function_words,1,
+de_0129,de,eins,one,number,,,numbers,1,counting form; ein/eine before a noun
+de_0130,de,zwei,two,number,,,numbers,1,
+de_0131,de,drei,three,number,,,numbers,1,
+de_0132,de,vier,four,number,,,numbers,1,
+de_0133,de,fünf,five,number,,,numbers,1,
+de_0134,de,sechs,six,number,,,numbers,1,
+de_0135,de,sieben,seven,number,,,numbers,1,
+de_0136,de,acht,eight,number,,,numbers,1,
+de_0137,de,neun,nine,number,,,numbers,1,
+de_0138,de,zehn,ten,number,,,numbers,1,
+de_0139,de,wie viel,how much; how many,phrase,,,question_words,1,interrogative chunk
+de_0140,de,Uhr,clock; watch; o'clock,noun,f,-en,time,1,Wie viel Uhr ist es? = What time is it?
+de_0141,de,um,at (clock time),preposition,,,time,1,time sense only; um drei Uhr
+de_0142,de,Tag,day,noun,m,-e,time,1,Tag! = short greeting
+de_0143,de,gute Nacht,good night,phrase,,,greetings,1,fixed chunk
+de_0144,de,Nacht,night,noun,f,¨-e,time,1,heute Nacht = tonight
+de_0145,de,Morgen,morning,noun,m,-,time,1,am Morgen = in the morning
+de_0146,de,guten Abend,good evening,phrase,,,greetings,1,fixed chunk
+de_0147,de,Abend,evening,noun,m,-e,time,1,heute Abend = this evening; am Abend = in the evening
+de_0148,de,wann,when,adverb,,,question_words,1,interrogative
+de_0149,de,warum,why,adverb,,,question_words,1,interrogative
+de_0150,de,denn,because (coordinating; keeps verb-second),conjunction,,,function_words,1,replaces weil at A1 (§7.4); only use with two short main clauses
+de_0151,de,Familie,family,noun,f,-n,family,1,
+de_0152,de,Mutter,mother,noun,f,¨,family,1,
+de_0153,de,Vater,father,noun,m,¨,family,1,
+de_0154,de,Eltern,parents,noun,p,,family,1,plural only
+de_0155,de,Bruder,brother,noun,m,¨,family,1,first deliberate masculine accusative: einen Bruder
+de_0156,de,Schwester,sister,noun,f,-n,family,1,
+de_0157,de,Sohn,son,noun,m,¨-e,family,1,
+de_0158,de,Tochter,daughter,noun,f,¨,family,1,
+de_0159,de,Oma,grandma,noun,f,-s,family,1,
+de_0160,de,Opa,grandpa,noun,m,-s,family,1,
+de_0161,de,Baby,baby,noun,n,-s,family,1,
+de_0162,de,Junge,boy,noun,m,-n,people,1,n-declension (den Jungen) not used at A1
+de_0163,de,Mädchen,girl,noun,n,-,people,1,neuter despite meaning
+de_0164,de,nett,nice; kind,adjective,,,adjectives,1,predicative only
+de_0165,de,Leute,people,noun,p,,people,1,plural only
+de_0166,de,Name,name,noun,m,-n,people,1,
+de_0167,de,sein / seine,his; its,pronoun,,,possessives,1,possessive; feminine / plural form seine
+de_0168,de,ihr / ihre,her; their,pronoun,,,possessives,1,"possessive; lowercase (capital Ihr = your, formal)"
+de_0169,de,Jahr,year,noun,n,-e,time,1,zehn Jahre alt = ten years old
+de_0170,de,mögen,to like,modal_verb,,,core_verbs,1,"irregular: mag, magst, mag, mögen; used with a noun object at A1"
+de_0171,de,ich möchte,I would like,phrase,,,core_chunks,1,"polite chunk (möchte, möchtest, möchten); not analyzed as Konjunktiv II"
+de_0172,de,ich hätte gern,I would like (ordering),phrase,,,core_chunks,1,polite chunk (hätte / hättest gern); not analyzed
+de_0173,de,elf,eleven,number,,,numbers,1,
+de_0174,de,zwölf,twelve,number,,,numbers,1,
+de_0175,de,dreizehn,thirteen,number,,,numbers,1,
+de_0176,de,vierzehn,fourteen,number,,,numbers,1,vierzehn Tage = two weeks
+de_0177,de,fünfzehn,fifteen,number,,,numbers,1,24-hour clock: fünfzehn Uhr
+de_0178,de,sechzehn,sixteen,number,,,numbers,1,
+de_0179,de,siebzehn,seventeen,number,,,numbers,1,
+de_0180,de,achtzehn,eighteen,number,,,numbers,1,
+de_0181,de,neunzehn,nineteen,number,,,numbers,1,
+de_0182,de,zwanzig,twenty,number,,,numbers,1,
+de_0183,de,Nachbar,neighbour,noun,m,-n,people,2,n-declension not used at A1
+de_0184,de,Kollege,colleague (male),noun,m,-n,work,2,n-declension not used at A1
+de_0185,de,Kollegin,colleague (female),noun,f,-nen,work,2,
+de_0186,de,verheiratet,married,adjective,,,family,1,predicative only
+de_0187,de,allein,alone,adverb,,,family,1,
+de_0188,de,leben,to live (be alive; reside),verb,,,core_verbs,1,"lebe, lebst, lebt"
+de_0189,de,Chef,boss,noun,m,-s,work,2,
+de_0190,de,ihr,"you (informal, plural)",pronoun,,,pronouns,1,"verb ending -t: ihr seid, ihr habt, ihr kommt"
+de_0191,de,Ihr / Ihre,your (formal),pronoun,,,possessives,1,possessive for Sie; always capitalized
+de_0192,de,warten,to wait,verb,,,core_verbs,1,"warte, wartest, wartet; imperative warte"
+de_0193,de,fragen,to ask,verb,,,core_verbs,1,"frage, fragst, fragt; imperative frag; +Akk"
+de_0194,de,antworten,to answer,verb,,,core_verbs,1,"antworte, antwortest, antwortet"
+de_0195,de,Frage,question,noun,f,-n,communication,1,
+de_0196,de,Antwort,answer,noun,f,-en,communication,1,
+de_0197,de,Problem,problem,noun,n,-e,communication,1,Kein Problem! = No problem!
+de_0198,de,alles,everything; all,pronoun,,,function_words,1,
+de_0199,de,alles klar,all right; got it; OK,phrase,,,core_chunks,1,fixed chunk; klar = clear
+de_0200,de,Person,person,noun,f,-en,people,1,zwei Personen = for two (restaurant)
+de_0201,de,Essen,food; meal,noun,n,,food_drink,1,no plural at A1
+de_0202,de,Brot,bread,noun,n,-e,food_drink,1,
+de_0203,de,Brötchen,bread roll,noun,n,-,food_drink,1,
+de_0204,de,Butter,butter,noun,f,,food_drink,1,no plural
+de_0205,de,Käse,cheese,noun,m,,food_drink,1,no plural at A1
+de_0206,de,Ei,egg,noun,n,-er,food_drink,1,
+de_0207,de,Apfel,apple,noun,m,¨,food_drink,1,
+de_0208,de,Zucker,sugar,noun,m,,food_drink,1,no plural
+de_0209,de,Salz,salt,noun,n,,food_drink,1,no plural
+de_0210,de,Tee,tea,noun,m,-s,food_drink,1,
+de_0211,de,Saft,juice,noun,m,¨-e,food_drink,1,
+de_0212,de,Bier,beer,noun,n,-e,food_drink,1,zwei Bier (plural in orders)
+de_0213,de,Wein,wine,noun,m,-e,food_drink,1,
+de_0214,de,Suppe,soup,noun,f,-n,food_drink,1,
+de_0215,de,Fisch,fish,noun,m,-e,food_drink,1,
+de_0216,de,Fleisch,meat,noun,n,,food_drink,1,no plural
+de_0217,de,Gemüse,vegetables,noun,n,,food_drink,1,no plural; singular in German
+de_0218,de,Salat,salad; lettuce,noun,m,-e,food_drink,1,
+de_0219,de,Kartoffel,potato,noun,f,-n,food_drink,1,
+de_0220,de,Reis,rice,noun,m,,food_drink,1,no plural
+de_0221,de,Pizza,pizza,noun,f,-s,food_drink,1,
+de_0222,de,Frühstück,breakfast,noun,n,-e,food_drink,1,zum Frühstück = for breakfast
+de_0223,de,Mittagessen,lunch,noun,n,-,food_drink,1,compound: Mittag + Essen
+de_0224,de,Abendessen,dinner; supper,noun,n,-,food_drink,1,compound: Abend + Essen
+de_0225,de,Restaurant,restaurant,noun,n,-s,food_drink,1,
+de_0226,de,Hunger,hunger,noun,m,,food_drink,1,no plural; Hunger haben = to be hungry
+de_0227,de,Durst,thirst,noun,m,,food_drink,1,no plural; Durst haben = to be thirsty
+de_0228,de,kochen,to cook,verb,,,food_drink,1,"koche, kochst, kocht"
+de_0229,de,schmecken,to taste (good); Schmeckt es dir? = Do you like it?,verb,,,food_drink,1,schmeckt; dative chunk schmeckt dir / mir
+de_0230,de,bezahlen,to pay,verb,,,shopping,1,"bezahle, bezahlst, bezahlt; +Akk"
+de_0231,de,Rechnung,bill; invoice,noun,f,-en,shopping,1,
+de_0232,de,guten Appetit,enjoy your meal,phrase,,,food_drink,1,fixed chunk
+de_0233,de,Glas,glass,noun,n,¨-er,food_drink,1,ein Glas Wasser (no preposition)
+de_0234,de,Flasche,bottle,noun,f,-n,food_drink,1,eine Flasche Wasser
+de_0235,de,leer,empty,adjective,,,adjectives,1,predicative only
+de_0236,de,voll,full,adjective,,,adjectives,1,predicative only
+de_0237,de,Tasse,cup,noun,f,-n,food_drink,1,eine Tasse Kaffee
+de_0238,de,Teller,plate,noun,m,-,food_drink,1,
+de_0239,de,Zimmer,room,noun,n,-,home,1,
+de_0240,de,Küche,kitchen,noun,f,-n,home,1,in der Küche = fixed location chunk (dative)
+de_0241,de,Bad,bathroom,noun,n,¨-er,home,1,im Bad
+de_0242,de,Tür,door,noun,f,-en,home,1,zu = closed
+de_0243,de,Fenster,window,noun,n,-,home,1,
+de_0244,de,Tisch,table,noun,m,-e,home,1,
+de_0245,de,Stuhl,chair,noun,m,¨-e,home,1,
+de_0246,de,Bett,bed,noun,n,-en,home,1,ins Bett gehen
+de_0247,de,Wohnung,flat; apartment,noun,f,-en,home,1,
+de_0248,de,Kühlschrank,fridge,noun,m,¨-e,home,1,compound: kühl + Schrank; learn as a unit
+de_0249,de,stehen,to stand; to be (located),verb,,,core_verbs,1,"stehe, stehst, steht"
+de_0250,de,auf,on (location); (predicative) open (Der Laden ist auf),preposition,,,function_words,1,location only; auf dem / auf der learned as fixed chunks (dative)
+de_0251,de,können,can; to be able to,modal_verb,,,modals,1,"irregular: kann, kannst, kann, können, könnt; infinitive at the end (§7.5)"
+de_0252,de,müssen,must; to have to,modal_verb,,,modals,1,"irregular: muss, musst, muss, müssen, müsst"
+de_0253,de,wollen,to want (to),modal_verb,,,modals,1,"irregular: will, willst, will, wollen, wollt"
+de_0254,de,dürfen,may; to be allowed to,modal_verb,,,modals,1,"irregular: darf, darfst, darf, dürfen, dürft"
+de_0255,de,helfen,to help,verb,,,core_verbs,1,"irregular: helfe, hilfst, hilft; dative verb, used only in chunks: mir helfen, ich helfe dir"
+de_0256,de,Bus,bus,noun,m,-se,transport,1,Bus fahren = to take the bus
+de_0257,de,Zug,train,noun,m,¨-e,transport,1,
+de_0258,de,mit,with; by (transport),preposition,,,function_words,1,takes the dative; mit dem / mit der learned as fixed chunks
+de_0259,de,Bahn,"train; railway (also U-Bahn, S-Bahn)",noun,f,-en,transport,1,mit der Bahn
+de_0260,de,Taxi,taxi,noun,n,-s,transport,1,
+de_0261,de,Fahrrad,bicycle,noun,n,¨-er,transport,1,compound: fahren + Rad; Fahrrad fahren = to cycle
+de_0262,de,Bahnhof,station,noun,m,¨-e,transport,1,"compound: Bahn + Hof; am Bahnhof, zum Bahnhof"
+de_0263,de,Straße,street; road,noun,f,-n,places,1,
+de_0264,de,Stadt,city; town,noun,f,¨-e,places,1,in die Stadt = into town
+de_0265,de,Land,country; countryside,noun,n,¨-er,places,1,auf dem Land = in the countryside
+de_0266,de,Deutschland,Germany,noun,n,,places,1,no article; no plural
+de_0267,de,Hotel,hotel,noun,n,-s,places,1,
+de_0268,de,Supermarkt,supermarket,noun,m,¨-e,shopping,1,compound: super + Markt; im / zum Supermarkt
+de_0269,de,Geschäft,shop,noun,n,-e,shopping,1,
+de_0270,de,Markt,market,noun,m,¨-e,shopping,1,auf dem Markt
+de_0271,de,Bank,bank,noun,f,-en,places,1,zur Bank
+de_0272,de,Post,post office; mail,noun,f,,places,1,no plural; zur Post
+de_0273,de,Schule,school,noun,f,-n,places,1,"in die Schule, zur Schule"
+de_0274,de,Arbeit,work; job,noun,f,,work,1,no plural at A1; zur Arbeit
+de_0275,de,Büro,office,noun,n,-s,work,1,im / ins Büro
+de_0276,de,Kino,cinema,noun,n,-s,leisure,1,ins Kino
+de_0277,de,Flughafen,airport,noun,m,¨,transport,1,compound: Flug + Hafen; zum Flughafen
+de_0278,de,Flugzeug,aeroplane,noun,n,-e,transport,1,compound: Flug + Zeug
+de_0279,de,fliegen,to fly,verb,,,transport,1,"fliege, fliegst, fliegt"
+de_0280,de,links,left; on the left,adverb,,,directions,1,nach links = to the left
+de_0281,de,rechts,right; on the right,adverb,,,directions,1,nach rechts = to the right
+de_0282,de,geradeaus,straight ahead,adverb,,,directions,1,
+de_0283,de,weit,far,adjective,,,directions,1,predicative only
+de_0284,de,Weg,way; path,noun,m,-e,directions,1,deliberate masculine accusative: den Weg
+de_0285,de,Fahrkarte,ticket (transport),noun,f,-n,transport,1,compound: fahren + Karte
+de_0286,de,Haltestelle,(bus/tram) stop,noun,f,-n,transport,1,compound: halten + Stelle
+de_0287,de,abfahren,to depart; to leave,verb,,,transport,1,separable; fährt ... ab
+de_0288,de,ankommen,to arrive,verb,,,transport,1,separable; kommt ... an
+de_0289,de,einsteigen,to get on / in,verb,,,transport,1,separable; steigt ... ein
+de_0290,de,aussteigen,to get off / out,verb,,,transport,1,separable; steigt ... aus
+de_0291,de,frei,free; vacant; (frei haben) to have time off,adjective,,,adjectives,1,predicative only
+de_0292,de,Platz,square; seat; space,noun,m,¨-e,places,1,
+de_0293,de,Geld,money,noun,n,,shopping,1,no plural
+de_0294,de,Euro,euro,noun,m,-s,shopping,1,zehn Euro (no plural ending after numbers)
+de_0295,de,Cent,cent,noun,m,-s,shopping,1,zwanzig Cent (no plural ending after numbers)
+de_0296,de,kosten,to cost,verb,,,shopping,1,"kostet, kosten"
+de_0297,de,wie viel kostet,how much is / does ... cost,phrase,,,shopping,1,fixed chunk
+de_0298,de,Preis,price,noun,m,-e,shopping,1,
+de_0299,de,Kasse,checkout; till,noun,f,-n,shopping,1,zur Kasse
+de_0300,de,einkaufen,to shop; to go shopping,verb,,,shopping,1,separable; kauft ... ein
+de_0301,de,Montag,Monday,noun,m,-e,time,1,am Montag = on Monday
+de_0302,de,Dienstag,Tuesday,noun,m,-e,time,1,
+de_0303,de,Mittwoch,Wednesday,noun,m,-e,time,1,
+de_0304,de,Donnerstag,Thursday,noun,m,-e,time,1,
+de_0305,de,Freitag,Friday,noun,m,-e,time,1,
+de_0306,de,Samstag,Saturday,noun,m,-e,time,1,Sonnabend in the north
+de_0307,de,Sonntag,Sunday,noun,m,-e,time,1,
+de_0308,de,Woche,week,noun,f,-n,time,1,
+de_0309,de,Wochenende,weekend,noun,n,-n,time,1,compound: Woche + Ende; am Wochenende
+de_0310,de,Monat,month,noun,m,-e,time,1,
+de_0311,de,Zeit,time,noun,f,,time,1,no plural at A1; Zeit haben = to have time
+de_0312,de,Urlaub,holiday; vacation,noun,m,-e,time,1,Urlaub haben = to be on holiday
+de_0313,de,Ferien,school holidays,noun,p,,time,1,plural only
+de_0314,de,Termin,appointment,noun,m,-e,time,1,deliberate masculine accusative: einen Termin
+de_0315,de,Januar,January,noun,m,,time,1,no plural; im Januar
+de_0316,de,Februar,February,noun,m,,time,1,no plural
+de_0317,de,März,March,noun,m,,time,1,no plural
+de_0318,de,April,April,noun,m,,time,1,"no plural; April, April! = April fool!"
+de_0319,de,Mai,May,noun,m,,time,1,no plural
+de_0320,de,Juni,June,noun,m,,time,1,no plural
+de_0321,de,Juli,July,noun,m,,time,1,no plural
+de_0322,de,August,August,noun,m,,time,1,no plural
+de_0323,de,September,September,noun,m,,time,1,no plural
+de_0324,de,Oktober,October,noun,m,,time,1,no plural
+de_0325,de,November,November,noun,m,,time,1,no plural
+de_0326,de,Dezember,December,noun,m,,time,1,no plural
+de_0327,de,halb,half; (halb drei) half past two,adverb,,,time,1,halb drei = 2:30 (half towards three)
+de_0328,de,einundzwanzig,twenty-one,number,,,numbers,1,units before tens: ein-und-zwanzig
+de_0329,de,dreißig,thirty,number,,,numbers,1,note ß
+de_0330,de,vierzig,forty,number,,,numbers,1,
+de_0331,de,fünfzig,fifty,number,,,numbers,1,
+de_0332,de,sechzig,sixty,number,,,numbers,1,"note: sechzig, not sechszig"
+de_0333,de,siebzig,seventy,number,,,numbers,1,"note: siebzig, not siebenzig"
+de_0334,de,achtzig,eighty,number,,,numbers,1,
+de_0335,de,neunzig,ninety,number,,,numbers,1,
+de_0336,de,hundert,hundred,number,,,numbers,1,(ein)hundert
+de_0337,de,vielen Dank,thank you very much,phrase,,,greetings,1,fixed chunk (Dank = thanks)
+de_0338,de,tausend,thousand,number,,,numbers,1,(ein)tausend
+de_0339,de,aufstehen,to get up,verb,,,daily_routine,1,separable; steht ... auf
+de_0340,de,mich,me (accusative),pronoun,,,pronouns,1,accusative of ich
+de_0341,de,anrufen,to call (phone),verb,,,communication,1,separable; ruft ... an; +Akk
+de_0342,de,fernsehen,to watch TV,verb,,,leisure,1,separable; sieht ... fern
+de_0343,de,aufmachen,to open,verb,,,home,1,separable; macht ... auf
+de_0344,de,zumachen,to close,verb,,,home,1,separable; macht ... zu
+de_0345,de,mitkommen,to come along,verb,,,social,1,separable; kommt ... mit
+de_0346,de,anfangen,to begin; to start,verb,,,time,1,"separable, irregular; fängt ... an"
+de_0347,de,früh,early; (morgen früh) tomorrow morning,adverb,,,time,1,
+de_0348,de,spät,late,adverb,,,time,1,
+de_0349,de,bald,soon,adverb,,,time,1,Bis bald! = See you soon!
+de_0350,de,später,later,adverb,,,time,1,Bis später! = See you later!
+de_0351,de,Minute,minute,noun,f,-n,time,1,in fünf Minuten
+de_0352,de,Stunde,hour,noun,f,-n,time,1,
+de_0353,de,krank,ill; sick,adjective,,,health,1,predicative only
+de_0354,de,gesund,healthy; well,adjective,,,health,1,predicative only
+de_0355,de,kaputt,broken,adjective,,,adjectives,1,predicative only
+de_0356,de,hoch,high; tall,adjective,,,adjectives,1,predicative only
+de_0357,de,dunkel,dark,adjective,,,adjectives,1,predicative only
+de_0358,de,hell,bright; light,adjective,,,adjectives,1,predicative only
+de_0359,de,nass,wet,adjective,,,weather,1,predicative only
+de_0360,de,trocken,dry,adjective,,,weather,1,predicative only
+de_0361,de,Kopf,head,noun,m,¨-e,body,1,
+de_0362,de,wehtun,to hurt,verb,,,health,1,"separable, dative verb; used only in the chunk X tut (mir) weh"
+de_0363,de,Hand,hand,noun,f,¨-e,body,1,
+de_0364,de,Fuß,foot,noun,m,¨-e,body,1,zu Fuß = on foot
+de_0365,de,Auge,eye,noun,n,-n,body,1,
+de_0366,de,Bauch,belly; stomach,noun,m,¨-e,body,1,
+de_0367,de,Zahn,tooth,noun,m,¨-e,body,1,
+de_0368,de,Bein,leg,noun,n,-e,body,1,
+de_0369,de,Arm,arm,noun,m,-e,body,1,
+de_0370,de,Arzt,doctor (male),noun,m,¨-e,health,1,zum Arzt gehen
+de_0371,de,Ärztin,doctor (female),noun,f,-nen,health,1,
+de_0372,de,Schmerzen,pain,noun,p,,health,1,plural only at A1 (der Schmerz); plural only; no singular in common use
+de_0373,de,Apotheke,pharmacy,noun,f,-n,health,1,zur Apotheke
+de_0374,de,Medikament,medicine,noun,n,-e,health,1,
+de_0375,de,Tablette,tablet; pill,noun,f,-n,health,1,
+de_0376,de,Krankenhaus,hospital,noun,n,¨-er,health,1,compound: krank + Haus
+de_0377,de,Wetter,weather,noun,n,,weather,1,no plural
+de_0378,de,Sonne,sun,noun,f,,weather,1,no plural at A1
+de_0379,de,Regen,rain,noun,m,,weather,1,no plural
+de_0380,de,regnen,to rain,verb,,,weather,1,es regnet (impersonal)
+de_0381,de,Schnee,snow,noun,m,,weather,1,no plural
+de_0382,de,schneien,to snow,verb,,,weather,1,es schneit (impersonal)
+de_0383,de,Wind,wind,noun,m,,weather,1,no plural at A1; deliberate masculine accusative: den Wind
+de_0384,de,Grad,degree,noun,n,-,weather,1,zwanzig Grad (no plural ending)
+de_0385,de,Himmel,sky,noun,m,,nature,1,no plural
+de_0386,de,Wolke,cloud,noun,f,-n,weather,1,
+de_0387,de,sonnig,sunny,adjective,,,weather,1,predicative only
+de_0388,de,Baum,tree,noun,m,¨-e,nature,1,
+de_0389,de,Blume,flower,noun,f,-n,nature,1,
+de_0390,de,Hund,dog,noun,m,-e,animals,1,deliberate masculine accusative: einen Hund
+de_0391,de,Katze,cat,noun,f,-n,animals,1,
+de_0392,de,Garten,garden,noun,m,¨,home,1,im Garten
+de_0393,de,Meer,sea,noun,n,-e,nature,1,ans Meer = to the seaside
+de_0394,de,Berg,mountain,noun,m,-e,nature,1,
+de_0395,de,See,lake,noun,m,-n,nature,1,"zum See (die See = sea, not taught)"
+de_0396,de,Wald,forest,noun,m,¨-er,nature,1,im Wald
+de_0397,de,Frühling,spring,noun,m,,time,1,no plural; im Frühling
+de_0398,de,Sommer,summer,noun,m,,time,1,no plural; im Sommer
+de_0399,de,Herbst,autumn,noun,m,,time,1,no plural; im Herbst
+de_0400,de,Winter,winter,noun,m,,time,1,no plural; im Winter
+de_0401,de,Luft,air,noun,f,,nature,1,no plural
+de_0402,de,Natur,nature,noun,f,,nature,1,no plural
+de_0403,de,dich,"you (accusative, informal)",pronoun,,,pronouns,1,accusative of du
+de_0404,de,Kleidung,clothes; clothing,noun,f,,clothing,2,no plural
+de_0405,de,Hemd,shirt,noun,n,-en,clothing,2,
+de_0406,de,Hose,trousers,noun,f,-n,clothing,2,singular in German
+de_0407,de,Rock,skirt,noun,m,¨-e,clothing,2,deliberate masculine accusative: den Rock
+de_0408,de,Kleid,dress,noun,n,-er,clothing,2,
+de_0409,de,Jacke,jacket,noun,f,-n,clothing,2,
+de_0410,de,Mantel,coat,noun,m,¨,clothing,2,
+de_0411,de,Schuh,shoe,noun,m,-e,clothing,2,
+de_0412,de,Socke,sock,noun,f,-n,clothing,2,
+de_0413,de,Pullover,sweater; jumper,noun,m,-,clothing,2,
+de_0414,de,T-Shirt,T-shirt,noun,n,-s,clothing,2,
+de_0415,de,Mütze,(woolly) hat; cap,noun,f,-n,clothing,2,
+de_0416,de,Brille,glasses,noun,f,-n,clothing,2,singular in German
+de_0417,de,Größe,size,noun,f,-n,clothing,2,in Größe vierzig
+de_0418,de,anziehen,to put on (clothes),verb,,,clothing,2,separable; zieht ... an
+de_0419,de,tragen,to wear; to carry,verb,,,clothing,2,"irregular: trage, trägst, trägt; +Akk"
+de_0420,de,passen,to fit; to suit; (Das passt) that works,verb,,,clothing,2,passt
+de_0421,de,braun,brown,adjective,,,colors,1,predicative only
+de_0422,de,grau,grey,adjective,,,colors,1,predicative only
+de_0423,de,Laden,shop,noun,m,¨,shopping,2,
+de_0424,de,Bäckerei,bakery,noun,f,-en,shopping,2,zur Bäckerei
+de_0425,de,Kaufhaus,department store,noun,n,¨-er,shopping,2,compound: kaufen + Haus
+de_0426,de,verkaufen,to sell,verb,,,shopping,2,"verkaufe, verkaufst, verkauft; +Akk"
+de_0427,de,Verkäufer,sales assistant (male),noun,m,-,shopping,2,
+de_0428,de,Verkäuferin,sales assistant (female),noun,f,-nen,shopping,2,
+de_0429,de,Kunde,customer,noun,m,-n,shopping,2,n-declension not used at A1
+de_0430,de,Angebot,offer; special offer,noun,n,-e,shopping,2,im Angebot = on offer
+de_0431,de,günstig,cheap; good value,adjective,,,shopping,2,predicative only
+de_0432,de,Stück,piece; item,noun,n,-e,shopping,2,zwei Stück (no plural ending)
+de_0433,de,Kilo,kilo,noun,n,-s,shopping,2,ein Kilo Äpfel
+de_0434,de,Liter,litre,noun,m,-,shopping,2,ein Liter Milch; deliberate masculine accusative: einen Euro
+de_0435,de,Packung,packet; pack,noun,f,-en,shopping,2,eine Packung Reis
+de_0436,de,Tüte,bag (paper/plastic),noun,f,-n,shopping,2,
+de_0437,de,bekommen,to get; to receive,verb,,,core_verbs,1,"bekomme, bekommst, bekommt; not a separable verb"
+de_0438,de,suchen,to look for,verb,,,core_verbs,1,"suche, suchst, sucht; +Akk"
+de_0439,de,zeigen,to show,verb,,,core_verbs,1,"zeige, zeigst, zeigt; imperative zeig"
+de_0440,de,probieren,to try; to taste,verb,,,shopping,2,"probiere, probierst, probiert; +Akk"
+de_0441,de,bringen,to bring,verb,,,core_verbs,1,"bringe, bringst, bringt; imperative bring"
+de_0442,de,holen,to fetch; to get,verb,,,core_verbs,1,"hole, holst, holt; imperative hol; +Akk"
+de_0443,de,schenken,to give (as a gift),verb,,,social,2,"schenke, schenkst, schenkt; dative object (dir) only in chunk"
+de_0444,de,Geschenk,present; gift,noun,n,-e,social,2,
+de_0445,de,Geburtstag,birthday,noun,m,-e,social,1,Geburtstag haben = to have one's birthday
+de_0446,de,Party,party,noun,f,-s,social,2,zur Party
+de_0447,de,feiern,to celebrate,verb,,,social,2,"feiere, feierst, feiert"
+de_0448,de,einladen,to invite,verb,,,social,2,"separable, irregular; lädt ... ein; +Akk"
+de_0449,de,Einladung,invitation,noun,f,-en,social,2,
+de_0450,de,herzlichen Glückwunsch,congratulations; happy birthday,phrase,,,social,1,fixed chunk; also Alles Gute! = all the best
+de_0451,de,Freizeit,free time,noun,f,,leisure,1,no plural; compound: frei + Zeit; in der Freizeit
+de_0452,de,Hobby,hobby,noun,n,-s,leisure,1,
+de_0453,de,Sport,sport,noun,m,,leisure,1,no plural; Sport machen = to do sport
+de_0454,de,Fußball,football; soccer,noun,m,,leisure,1,no plural at A1; Fußball spielen
+de_0455,de,schwimmen,to swim,verb,,,leisure,1,"schwimme, schwimmst, schwimmt"
+de_0456,de,laufen,to run; to walk,verb,,,leisure,1,"irregular: laufe, läufst, läuft; imperative lauf"
+de_0457,de,tanzen,to dance,verb,,,leisure,1,"tanze, tanzt, tanzt"
+de_0458,de,singen,to sing,verb,,,leisure,1,"singe, singst, singt"
+de_0459,de,Musik,music,noun,f,,leisure,1,no plural
+de_0460,de,Lied,song,noun,n,-er,leisure,1,
+de_0461,de,Buch,book,noun,n,¨-er,leisure,1,
+de_0462,de,Zeitung,newspaper,noun,f,-en,media,1,
+de_0463,de,Film,film; movie,noun,m,-e,media,1,deliberate masculine accusative: den Film
+de_0464,de,Fernseher,television set,noun,m,-,media,1,
+de_0465,de,Radio,radio,noun,n,-s,media,1,Radio hören
+de_0466,de,Handy,mobile phone,noun,n,-s,technology,1,"pronounced ""hendi"""
+de_0467,de,Computer,computer,noun,m,-,technology,1,
+de_0468,de,Internet,internet,noun,n,,technology,1,no plural
+de_0469,de,E-Mail,email,noun,f,-s,communication,1,
+de_0470,de,wichtig,important,adjective,,,adjectives,1,predicative only
+de_0471,de,Nachricht,message; news item,noun,f,-en,communication,1,
+de_0472,de,Foto,photo,noun,n,-s,leisure,1,ein Foto machen = to take a photo
+de_0473,de,schicken,to send,verb,,,communication,1,"schicke, schickst, schickt; imperative schick"
+de_0474,de,Brief,letter,noun,m,-e,communication,1,deliberate masculine accusative: einen Brief
+de_0475,de,Adresse,address,noun,f,-n,communication,1,
+de_0476,de,Telefon,telephone,noun,n,-e,communication,1,
+de_0477,de,Nummer,number,noun,f,-n,communication,1,
+de_0478,de,Telefonnummer,phone number,noun,f,-n,communication,1,compound: Telefon + Nummer
+de_0479,de,telefonieren,to phone; to talk on the phone,verb,,,communication,1,"telefoniere, telefonierst, telefoniert"
+de_0480,de,fotografieren,to photograph,verb,,,leisure,2,"fotografiere, fotografierst, fotografiert"
+de_0481,de,malen,to paint; to draw,verb,,,leisure,2,"male, malst, malt"
+de_0482,de,reisen,to travel,verb,,,travel,1,"reise, reist, reist"
+de_0483,de,Reise,trip; journey,noun,f,-n,travel,1,Gute Reise! = Have a good trip! (fixed formula)
+de_0484,de,wandern,to hike,verb,,,leisure,2,"wandere, wanderst, wandert"
+de_0485,de,Spiel,game,noun,n,-e,leisure,1,
+de_0486,de,gewinnen,to win,verb,,,leisure,2,"gewinne, gewinnst, gewinnt"
+de_0487,de,verlieren,to lose,verb,,,leisure,2,"verliere, verlierst, verliert"
+de_0488,de,Ball,ball,noun,m,¨-e,leisure,1,
+de_0489,de,Schwimmbad,swimming pool,noun,n,¨-er,leisure,2,compound: schwimmen + Bad; ins Schwimmbad
+de_0490,de,Museum,museum,noun,n,Museen,leisure,2,irregular plural; ins Museum
+de_0491,de,Theater,theatre,noun,n,-,leisure,2,ins Theater
+de_0492,de,Konzert,concert,noun,n,-e,leisure,2,zum Konzert
+de_0493,de,Ausflug,trip; outing,noun,m,¨-e,leisure,2,deliberate masculine accusative: einen Ausflug
+de_0494,de,Karte,ticket; card; map,noun,f,-n,leisure,1,
+de_0495,de,Kurs,course,noun,m,-e,learning,1,
+de_0496,de,Deutschkurs,German course,noun,m,-e,learning,1,compound: Deutsch + Kurs; zum Deutschkurs
+de_0497,de,Sprache,language,noun,f,-n,learning,1,
+de_0498,de,Lehrer,teacher (male),noun,m,-,learning,1,
+de_0499,de,Lehrerin,teacher (female),noun,f,-nen,learning,1,
+de_0500,de,Schüler,pupil; student (school),noun,m,-,learning,1,ich bin Schüler (no article for professions/roles)
+de_0501,de,Student,student (university),noun,m,-en,learning,1,n-declension not used at A1; no article after sein
+de_0502,de,Wort,word,noun,n,¨-er,learning,1,
+de_0503,de,Satz,sentence,noun,m,¨-e,learning,1,
+de_0504,de,buchstabieren,to spell,verb,,,learning,1,"buchstabiere, buchstabierst, buchstabiert"
+de_0505,de,bedeuten,to mean,verb,,,learning,1,usually 3rd person: bedeutet
+de_0506,de,erklären,to explain,verb,,,learning,1,"erkläre, erklärst, erklärt"
+de_0507,de,üben,to practise,verb,,,learning,1,"übe, übst, übt; imperative üb"
+de_0508,de,wiederholen,to repeat,verb,,,learning,1,"not separable: wiederhole, wiederholst, wiederholt"
+de_0509,de,Aufgabe,task; exercise,noun,f,-n,learning,1,
+de_0510,de,Hausaufgabe,homework,noun,f,-n,learning,1,compound: Haus + Aufgabe; usually plural
+de_0511,de,Prüfung,exam; test,noun,f,-en,learning,1,
+de_0512,de,Klasse,class,noun,f,-n,learning,1,
+de_0513,de,Heft,exercise book; notebook,noun,n,-e,learning,1,
+de_0514,de,Papier,paper,noun,n,-e,learning,1,usually singular
+de_0515,de,Stift,pen; pencil,noun,m,-e,learning,1,
+de_0516,de,Beruf,job; profession,noun,m,-e,work,1,"""Was sind Sie von Beruf?"" comes at A2"
+de_0517,de,Job,job,noun,m,-s,work,2,informal; English loan
+de_0518,de,Firma,company; firm,noun,f,Firmen,work,1,irregular plural: Firmen
+de_0519,de,verdienen,to earn,verb,,,work,1,"verdiene, verdienst, verdient"
+de_0520,de,Pause,break; pause,noun,f,-n,work,1,Pause machen = to take a break
+de_0521,de,Plan,plan,noun,m,¨-e,work,1,
+de_0522,de,planen,to plan,verb,,,work,1,"plane, planst, plant"
+de_0523,de,treffen,to meet,verb,,,social,1,"irregular: treffe, triffst, trifft; imperative triff"
+de_0524,de,besuchen,to visit,verb,,,social,1,"besuche, besuchst, besucht"
+de_0525,de,Besuch,visit; visitors,noun,m,-e,social,1,Besuch haben = to have visitors
+de_0526,de,lachen,to laugh,verb,,,social,1,"lache, lachst, lacht"
+de_0527,de,glauben,to believe; to think,verb,,,opinion,1,"glaube, glaubst, glaubt"
+de_0528,de,denken,to think,verb,,,opinion,1,"denke, denkst, denkt"
+de_0529,de,hoffen,to hope,verb,,,opinion,1,"hoffe, hoffst, hofft; hoffentlich = hopefully"
+de_0530,de,wünschen,to wish,verb,,,social,1,"wünsche, wünschst, wünscht; chunk: ich wünsche dir ..."
+de_0531,de,gefallen,to please; to like,verb,,,opinion,1,dative chunk: Das gefällt mir.
+de_0532,de,es tut mir leid,I'm sorry,phrase,,,social,1,fixed chunk with dative mir
+de_0533,de,Glück,luck; happiness,noun,n,,social,1,no plural; Viel Glück! = Good luck!
+de_0534,de,Idee,idea,noun,f,-n,opinion,1,Gute Idee! = Good idea!
+de_0535,de,Information,information,noun,f,-en,communication,2,often plural: Informationen
+de_0536,de,Ding,thing,noun,n,-e,function_words,1,
+de_0537,de,Sache,thing; matter,noun,f,-n,function_words,1,often plural: meine Sachen = my stuff
+de_0538,de,möglich,possible,adjective,,,opinion,1,
+de_0539,de,vielleicht,maybe; perhaps,adverb,,,opinion,1,
+de_0540,de,natürlich,of course; naturally,adverb,,,opinion,1,
+de_0541,de,leider,unfortunately,adverb,,,opinion,1,
+de_0542,de,wirklich,really,adverb,,,opinion,1,
+de_0543,de,genau,exactly; exact,adverb,,,opinion,1,Genau! = Exactly!
+de_0544,de,stimmen,to be right; to be correct,verb,,,opinion,1,usually 3rd person: stimmt; Stimmt! = That's right!
+de_0545,de,sicher,sure; safe; certainly,adjective,,,opinion,1,
+de_0546,de,fast,almost,adverb,,,function_words,1,
+de_0547,de,nur,only; just,adverb,,,function_words,1,
+de_0548,de,etwas,something; a bit,pronoun,,,function_words,1,also: etwas Wasser = a bit of water
+de_0549,de,nichts,nothing,pronoun,,,function_words,1,
+de_0550,de,jemand,someone; somebody,pronoun,,,social,1,
+de_0551,de,gleich,same; right away,adverb,,,time,1,two senses: gleich = the same / immediately
+de_0552,de,für,for,preposition,,,function_words,1,takes the accusative; taught here with pronouns and names
+de_0553,de,ohne,without,preposition,,,function_words,1,takes the accusative
+de_0554,de,von,from; of,preposition,,,function_words,1,takes the dative; taught here with names (no article)
+de_0555,de,bei,at; with; near,preposition,,,function_words,1,takes the dative; bei + name = at someone's place
+de_0556,de,vor,before; in front of,preposition,,,function_words,1,takes the dative; taught here with clock times
+de_0557,de,man,one; you (impersonal),pronoun,,,function_words,1,impersonal subject; takes er/sie/es verb form
+de_0558,de,unser,our,pronoun,,,possessives,1,"unser + m/n, unsere + f/pl; unseren avoided at A1"
+de_0559,de,euer,your (plural),pronoun,,,possessives,1,possessive of ihr (plural); eure + f/pl
+de_0560,de,alle,all; everyone,pronoun,,,function_words,1,plural; compare alles = everything
+de_0561,de,jeder,every; everyone,pronoun,,,function_words,1,jeder/jede/jedes; jeden avoided at A1
+de_0562,de,dieser,this,pronoun,,,function_words,1,dieser/diese/dieses; diesen avoided at A1
+de_0563,de,dann,then,adverb,,,time,1,
+de_0564,de,zuerst,first; at first,adverb,,,time,1,
+de_0565,de,danach,after that; afterwards,adverb,,,time,1,
+de_0566,de,manchmal,sometimes,adverb,,,time,1,
+de_0567,de,nie,never,adverb,,,time,1,
+de_0568,de,sofort,immediately; at once,adverb,,,time,1,
+de_0569,de,lang,long,adjective,,,adjectives,1,predicative only at A1; lange = for a long time
+de_0570,de,kurz,short,adjective,,,adjectives,1,predicative only at A1
+de_0571,de,mehr,more,adverb,,,function_words,1,nicht mehr = not any more
+de_0572,de,lieber,rather; preferably,adverb,,,opinion,1,fixed comparative chunk of gern; am liebsten = most of all
+de_0573,de,offen,open,adjective,,,adjectives,1,opposite geschlossen comes at A2
+de_0574,de,leicht,easy; light,adjective,,,adjectives,1,
+de_0575,de,schwer,difficult; heavy,adjective,,,adjectives,1,
+de_0576,de,einfach,simple; easy,adjective,,,adjectives,1,also used as a particle: einfach = just
+de_0577,de,zurück,back,adverb,,,function_words,1,zurück sein = to be back; zurückkommen comes at A2
+de_0578,de,Hilfe,help,noun,f,,daily_routine,1,no plural at A1; Hilfe! = Help!
+de_0579,de,Vorsicht,careful!; caution,interjection,,,admin,1,warning word; also die Vorsicht (noun)
+de_0580,de,Achtung,attention; watch out!,interjection,,,admin,1,announcements and warnings; also die Achtung (noun)
+de_0581,de,Eingang,entrance,noun,m,¨-e,places,1,
+de_0582,de,Ausgang,exit,noun,m,¨-e,places,1,
+de_0583,de,Toilette,toilet,noun,f,-n,places,1,
+de_0584,de,Ausweis,ID card,noun,m,-e,admin,1,
+de_0585,de,Pass,passport,noun,m,¨-e,admin,1,
+de_0586,de,Polizei,police,noun,f,,admin,1,no plural; takes a singular verb
+de_0587,de,Unfall,accident,noun,m,¨-e,admin,1,
+de_0588,de,Formular,form,noun,n,-e,admin,1,
+de_0589,de,ausfüllen,to fill in,verb,,,admin,1,separable: ich fülle das Formular aus
+de_0590,de,unterschreiben,to sign,verb,,,admin,1,"not separable: unterschreibe, unterschreibst, unterschreibt"
+de_0591,de,Schlüssel,key,noun,m,-,home,1,plural same as singular
+de_0592,de,Ende,end,noun,n,-n,function_words,1,"am Ende = in the end; idiom: Ende gut, alles gut"
+de_0593,de,Anfang,beginning; start,noun,m,¨-e,function_words,1,am Anfang = at the beginning
+de_0594,de,Welt,world,noun,f,,function_words,1,no plural at A1
+de_0595,de,Leben,life,noun,n,-,function_words,1,plural same as singular; separate entry from the verb leben
+de_0596,de,Mensch,person; human being,noun,m,-en,people,1,n-declension; plural Menschen = people
+de_0597,de,anders,different; differently,adverb,,,adjectives,1,
+de_0598,de,willkommen,welcome,interjection,,,greetings,1,Herzlich willkommen! = A warm welcome!
+de_0599,de,Prost,cheers!,interjection,,,social,1,said when drinking; also Zum Wohl!
+de_0600,de,Spaß,fun,noun,m,¨-e,social,1,Viel Spaß! = Have fun!; Spaß machen = to be fun

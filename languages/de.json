@@ -1,0 +1,85 @@
+{
+  "code": "de",
+  "name": "German",
+  "locale": "de-DE",
+  "appName": "German Study",
+  "shortName": "German",
+  "unitPrefix": "de_",
+  "videoSuffix": "german",
+  "speech": {
+    "adapter": "piper",
+    "voice": "de_DE-thorsten-high",
+    "version": "piper/de_DE-thorsten-high/v1",
+    "note": "Open-source Piper voice. MIT licence, recorded by Thorsten Mueller and released CC0. Runs on an ordinary processor; downloaded once, about 110 MB."
+  },
+  "partsOfSpeech": [
+    "adjective",
+    "adverb",
+    "article",
+    "conjunction",
+    "interjection",
+    "modal_verb",
+    "noun",
+    "number",
+    "particle",
+    "phrase",
+    "preposition",
+    "pronoun",
+    "verb"
+  ],
+  "genders": {
+    "m": "Masculine",
+    "f": "Feminine",
+    "n": "Neuter",
+    "p": "Plural only"
+  },
+  "citation": {
+    "articles": {
+      "m": "der",
+      "f": "die",
+      "n": "das",
+      "p": "die"
+    },
+    "pluralArticle": "",
+    "pluralEndings": [],
+    "pluralExceptions": [],
+    "noArticle": [
+      "Deutschland",
+      "Deutsch",
+      "Englisch"
+    ]
+  },
+  "titleWithArticle": true,
+  "titleWithPlural": true,
+  "characters": [
+    "ä",
+    "ö",
+    "ü",
+    "ß",
+    "Ä",
+    "Ö",
+    "Ü"
+  ],
+  "registers": [
+    "formal_statement",
+    "casual_question",
+    "idiomatic"
+  ],
+  "prompt": {
+    "languageName": "German",
+    "styleSetting": "everyday German life",
+    "stylePrefix": "Warm watercolor illustration, soft natural light, everyday German life, consistent flat-color palette, no text or letters in the image",
+    "scriptVersion": "llama3.1:8b/prompt-v1-de"
+  },
+  "labels": {
+    "greeting": "Guten Tag",
+    "targetToNative": "German to English",
+    "nativeToTarget": "English to German",
+    "targetOnly": "German only",
+    "targetWord": "German word"
+  },
+  "deploy": {
+    "site": "stractured-german-study"
+  },
+  "laptopPort": 8100
+}

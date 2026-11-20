@@ -1,0 +1,1032 @@
+{
+ "version": 1,
+ "language": "fr",
+ "topics": [
+  {
+   "topic": "greetings_courtesy",
+   "title": "Greetings & Courtesy",
+   "units": [
+    {
+     "id": "greetings_courtesy_01",
+     "title": "Greetings & Courtesy · Unit 1",
+     "videoBil": "units/greetings_courtesy_01_bilingual.mp4",
+     "videoFr": "units/greetings_courtesy_01_french.mp4",
+     "words": [
+      {
+       "id": "fr_0157",
+       "word": "bonjour",
+       "pos": "interjection",
+       "gender": null,
+       "meaning": "hello / good morning",
+       "spoken": "bonjour",
+       "audio": "audio/31ab2b3ef315b468.opus",
+       "sentences": [
+        {
+         "id": "s_0469",
+         "register": "formal_statement",
+         "fr": "Bonjour, monsieur Dupont.",
+         "en": "Hello, Mr. Dupont.",
+         "audio": "audio/93d0f8b6f43ecbf2.opus"
+        },
+        {
+         "id": "s_0470",
+         "register": "casual_question",
+         "fr": "Bonjour ! Bien dormi ?",
+         "en": "Good morning! Did you sleep well?",
+         "audio": "audio/f4fa9278e3d59f36.opus"
+        },
+        {
+         "id": "s_0471",
+         "register": "idiomatic",
+         "fr": "Un petit bonjour de Paris !",
+         "en": "A little hello from Paris!",
+         "audio": "audio/6db9eac3d8a55b53.opus"
+        }
+       ]
+      },
+      {
+       "id": "fr_0158",
+       "word": "bonsoir",
+       "pos": "interjection",
+       "gender": null,
+       "meaning": "good evening",
+       "spoken": "bonsoir",
+       "audio": "audio/89be01009ebfae61.opus",
+       "sentences": [
+        {
+         "id": "s_0472",
+         "register": "formal_statement",
+         "fr": "Bonsoir, madame.",
+         "en": "Good evening, madam.",
+         "audio": "audio/dcd337a66df99bc4.opus"
+        },
+        {
+         "id": "s_0473",
+         "register": "casual_question",
+         "fr": "Bonsoir ! Tu vas bien ?",
+         "en": "Good evening! Are you well?",
+         "audio": "audio/038ec81002ebbadc.opus"
+        },
+        {
+         "id": "s_0474",
+         "register": "idiomatic",
+         "fr": "Bonsoir tout le monde !",
+         "en": "Good evening, everyone!",
+         "audio": "audio/e049650c91998d74.opus"
+        }
+       ]
+      },
+      {
+       "id": "fr_0159",
+       "word": "salut",
+       "pos": "interjection",
+       "gender": null,
+       "meaning": "hi / bye (informal)",
+       "spoken": "salut",
+       "audio": "audio/a70835f7780294b9.opus",
+       "sentences": [
+        {
+         "id": "s_0475",
+         "register": "formal_statement",
+         "fr": "« Salut » est un mot familier.",
+         "en": "'Salut' is an informal word.",
+         "audio": "audio/df11d2cebacfd73f.opus"
+        },
+        {
+         "id": "s_0476",
+         "register": "casual_question",
+         "fr": "Salut, ça va ?",
+         "en": "Hi, how's it going?",
+         "audio": "audio/efc6be4111703c43.opus"
+        },
+        {
+         "id": "s_0477",
+         "register": "idiomatic",
+         "fr": "Salut tout le monde !",
+         "en": "Hi everyone!",
+         "audio": "audio/949e3ea032106761.opus"
+        }
+       ]
+      },
+      {
+       "id": "fr_0160",
+       "word": "au revoir",
+       "pos": "interjection",
+       "gender": null,
+       "meaning": "goodbye",
+       "spoken": "au revoir",
+       "audio": "audio/e1f6c083f1b0147e.opus",
+       "sentences": [
+        {
+         "id": "s_0478",
+         "register": "formal_statement",
+         "fr": "Au revoir, monsieur, et merci.",
+         "en": "Goodbye, sir, and thank you.",
+         "audio": "audio/00e34b5d04c0834f.opus"
+        },
+        {
+         "id": "s_0479",
+         "register": "casual_question",
+         "fr": "Tu pars déjà ? Au revoir !",
+         "en": "Leaving already? Goodbye!",
+         "audio": "audio/c6ea9885510d236c.opus"
+        },
+        {
+         "id": "s_0480",
+         "register": "idiomatic",
+         "fr": "Allez, au revoir !",
+         "en": "Alright, goodbye!",
+         "audio": "audio/919656423500687d.opus"
+        }
+       ]
+      },
+      {
+       "id": "fr_0161",
+       "word": "bonne nuit",
+       "pos": "phrase",
+       "gender": null,
+       "meaning": "good night",
+       "spoken": "bonne nuit",
+       "audio": "audio/7a83eda351449932.opus",
+       "sentences": [
+        {
+         "id": "s_0481",
+         "register": "formal_statement",
+         "fr": "Je dis bonne nuit aux enfants.",
+         "en": "I say good night to the children.",
+         "audio": "audio/43fabcb2a57d9c28.opus"
+        },
+        {
+         "id": "s_0482",
+         "register": "casual_question",
+         "fr": "Tu vas dormir ? Bonne nuit !",
+         "en": "Going to sleep? Good night!",
+         "audio": "audio/b71bcbb8dc56561c.opus"
+        },
+        {
+         "id": "s_0483",
+         "register": "idiomatic",
+         "fr": "Bonne nuit, fais de beaux rêves !",
+         "en": "Good night, sweet dreams!",
+         "audio": "audio/e154457ed0500cd5.opus"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "greetings_courtesy_02",
+     "title": "Greetings & Courtesy · Unit 2",
+     "videoBil": "units/greetings_courtesy_02_bilingual.mp4",
+     "videoFr": "units/greetings_courtesy_02_french.mp4",
+     "words": [
+      {
+       "id": "fr_0162",
+       "word": "s'il vous plaît",
+       "pos": "phrase",
+       "gender": null,
+       "meaning": "please (formal)",
+       "spoken": "s'il vous plaît",
+       "audio": "audio/275d8c0d69f52363.opus",
+       "sentences": [
+        {
+         "id": "s_0484",
+         "register": "formal_statement",
+         "fr": "L'addition, s'il vous plaît.",
+         "en": "The bill, please.",
+         "audio": "audio/08f2864991ae0999.opus"
+        },
+        {
+         "id": "s_0485",
+         "register": "casual_question",
+         "fr": "Vous pouvez répéter, s'il vous plaît ?",
+         "en": "Can you repeat that, please?",
+         "audio": "audio/731c88e2515e7ddb.opus"
+        },
+        {
+         "id": "s_0486",
+         "register": "idiomatic",
+         "fr": "Silence, s'il vous plaît !",
+         "en": "Silence, please!",
+         "audio": "audio/a2b6c608434122c2.opus"
+        }
+       ]
+      },
+      {
+       "id": "fr_0163",
+       "word": "s'il te plaît",
+       "pos": "phrase",
+       "gender": null,
+       "meaning": "please (informal)",
+       "spoken": "s'il te plaît",
+       "audio": "audio/9b7b4f4036c880bd.opus",
+       "sentences": [
+        {
+         "id": "s_0487",
+         "register": "formal_statement",
+         "fr": "Passe-moi le sel, s'il te plaît.",
+         "en": "Pass me the salt, please.",
+         "audio": "audio/327601d914e8a399.opus"
+        },
+        {
+         "id": "s_0488",
+         "register": "casual_question",
+         "fr": "Tu m'aides, s'il te plaît ?",
+         "en": "Will you help me, please?",
+         "audio": "audio/0fee0a404380821e.opus"
+        },
+        {
+         "id": "s_0489",
+         "register": "idiomatic",
+         "fr": "Allez, s'il te plaît !",
+         "en": "Come on, please!",
+         "audio": "audio/745cea4f9b7f60a9.opus"
+        }
+       ]
+      },
+      {
+       "id": "fr_0164",
+       "word": "merci",
+       "pos": "interjection",
+       "gender": null,
+       "meaning": "thank you",
+       "spoken": "merci",
+       "audio": "audio/ec04057d1f91f177.opus",
+       "sentences": [
+        {
+         "id": "s_0490",
+         "register": "formal_statement",
+         "fr": "Merci pour votre aide.",
+         "en": "Thank you for your help.",
+         "audio": "audio/9b5b808ad08113f4.opus"
+        },
+        {
+         "id": "s_0491",
+         "register": "casual_question",
+         "fr": "Merci ! C'est gentil !",
+         "en": "Thanks! That's kind!",
+         "audio": "audio/9d8bcf53657f70c4.opus"
+        },
+        {
+         "id": "s_0492",
+         "register": "idiomatic",
+         "fr": "Merci d'avance !",
+         "en": "Thanks in advance!",
+         "audio": "audio/aa8da504c459c2ff.opus"
+        }
+       ]
+      },
+      {
+       "id": "fr_0165",
+       "word": "merci beaucoup",
+       "pos": "phrase",
+       "gender": null,
+       "meaning": "thank you very much",
+       "spoken": "merci beaucoup",
+       "audio": "audio/9491fdca2bed1a32.opus",
+       "sentences": [
+        {
+         "id": "s_0493",
+         "register": "formal_statement",
+         "fr": "Merci beaucoup pour le repas.",
+         "en": "Thank you very much for the meal.",
+         "audio": "audio/b6f3fb23a964c0fa.opus"
+        },
+        {
+         "id": "s_0494",
+         "register": "casual_question",
+         "fr": "C'est pour moi ? Merci beaucoup !",
+         "en": "Is this for me? Thank you so much!",
+         "audio": "audio/995a6b24aca93743.opus"
+        },
+        {
+         "id": "s_0495",
+         "register": "idiomatic",
+         "fr": "Merci beaucoup à tous !",
+         "en": "Many thanks to everyone!",
+         "audio": "audio/ef8821fd03048e1a.opus"
+        }
+       ]
+      },
+      {
+       "id": "fr_0166",
+       "word": "de rien",
+       "pos": "phrase",
+       "gender": null,
+       "meaning": "you're welcome",
+       "spoken": "de rien",
+       "audio": "audio/48c357a5b6f85e6c.opus",
+       "sentences": [
+        {
+         "id": "s_0496",
+         "register": "formal_statement",
+         "fr": "— Merci. — De rien.",
+         "en": "'Thank you.' 'You're welcome.'",
+         "audio": "audio/2ea3509d09545746.opus"
+        },
+        {
+         "id": "s_0497",
+         "register": "casual_question",
+         "fr": "De rien, c'est normal !",
+         "en": "You're welcome, it's nothing!",
+         "audio": "audio/bad1a3070d85817c.opus"
+        },
+        {
+         "id": "s_0498",
+         "register": "idiomatic",
+         "fr": "De rien, avec plaisir !",
+         "en": "You're welcome, my pleasure!",
+         "audio": "audio/cc7262950b2fd7bd.opus"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "topic": "question_words",
+   "title": "Question Words",
+   "units": [
+    {
+     "id": "question_words_01",
+     "title": "Question Words · Unit 1",
+     "videoBil": "units/question_words_01_bilingual.mp4",
+     "videoFr": "units/question_words_01_french.mp4",
+     "words": [
+      {
+       "id": "fr_0118",
+       "word": "qui",
+       "pos": "pronoun",
+       "gender": null,
+       "meaning": "who",
+       "spoken": "qui",
+       "audio": "audio/ebcbcc18dcba9149.opus",
+       "sentences": [
+        {
+         "id": "s_0352",
+         "register": "formal_statement",
+         "fr": "Qui est le directeur, s'il vous plaît ?",
+         "en": "Who is the manager, please?",
+         "audio": "audio/c5ba434fff027a09.opus"
+        },
+        {
+         "id": "s_0353",
+         "register": "casual_question",
+         "fr": "Tu viens avec qui ?",
+         "en": "Who are you coming with?",
+         "audio": "audio/3267527877bf1da3.opus"
+        },
+        {
+         "id": "s_0354",
+         "register": "idiomatic",
+         "fr": "Qui veut du café ?",
+         "en": "Who wants coffee?",
+         "audio": "audio/7842c21da4919626.opus"
+        }
+       ]
+      },
+      {
+       "id": "fr_0119",
+       "word": "que",
+       "pos": "pronoun",
+       "gender": null,
+       "meaning": "what (object)",
+       "spoken": "que",
+       "audio": "audio/15a420e3ecc0b9a3.opus",
+       "sentences": [
+        {
+         "id": "s_0355",
+         "register": "formal_statement",
+         "fr": "Que désirez-vous ?",
+         "en": "What would you like?",
+         "audio": "audio/8a1acb1795710246.opus"
+        },
+        {
+         "id": "s_0356",
+         "register": "casual_question",
+         "fr": "Qu'est-ce que tu regardes ?",
+         "en": "What are you watching?",
+         "audio": "audio/e98e1a4caa2fdeb5.opus"
+        },
+        {
+         "id": "s_0357",
+         "register": "idiomatic",
+         "fr": "Qu'est-ce qu'on mange ce soir ?",
+         "en": "What are we eating tonight?",
+         "audio": "audio/b18641ff43e28387.opus"
+        }
+       ]
+      },
+      {
+       "id": "fr_0120",
+       "word": "quoi",
+       "pos": "pronoun",
+       "gender": null,
+       "meaning": "what",
+       "spoken": "quoi",
+       "audio": "audio/7f0aa6086ced0c0b.opus",
+       "sentences": [
+        {
+         "id": "s_0358",
+         "register": "formal_statement",
+         "fr": "Je ne sais pas quoi dire.",
+         "en": "I don't know what to say.",
+         "audio": "audio/2db8efa77984e9f8.opus"
+        },
+        {
+         "id": "s_0359",
+         "register": "casual_question",
+         "fr": "Tu fais quoi ?",
+         "en": "What are you doing?",
+         "audio": "audio/2c49cb00f36d1c50.opus"
+        },
+        {
+         "id": "s_0360",
+         "register": "idiomatic",
+         "fr": "Quoi de neuf ?",
+         "en": "What's new?",
+         "audio": "audio/298def07796003ad.opus"
+        }
+       ]
+      },
+      {
+       "id": "fr_0121",
+       "word": "où",
+       "pos": "adverb",
+       "gender": null,
+       "meaning": "where",
+       "spoken": "où",
+       "audio": "audio/0dba1bee11e498d2.opus",
+       "sentences": [
+        {
+         "id": "s_0361",
+         "register": "formal_statement",
+         "fr": "Où sont les toilettes, s'il vous plaît ?",
+         "en": "Where are the toilets, please?",
+         "audio": "audio/fb5025012b451e11.opus"
+        },
+        {
+         "id": "s_0362",
+         "register": "casual_question",
+         "fr": "Tu habites où ?",
+         "en": "Where do you live?",
+         "audio": "audio/ac2f4f8c27f79e3f.opus"
+        },
+        {
+         "id": "s_0363",
+         "register": "idiomatic",
+         "fr": "Où est le problème ?",
+         "en": "Where's the problem?",
+         "audio": "audio/ec01e86507e0c3ed.opus"
+        }
+       ]
+      },
+      {
+       "id": "fr_0122",
+       "word": "quand",
+       "pos": "adverb",
+       "gender": null,
+       "meaning": "when",
+       "spoken": "quand",
+       "audio": "audio/ea63d3a22a36a1e3.opus",
+       "sentences": [
+        {
+         "id": "s_0364",
+         "register": "formal_statement",
+         "fr": "Quand commence le film, s'il vous plaît ?",
+         "en": "When does the movie start, please?",
+         "audio": "audio/95d331988283de47.opus"
+        },
+        {
+         "id": "s_0365",
+         "register": "casual_question",
+         "fr": "Tu pars quand ?",
+         "en": "When are you leaving?",
+         "audio": "audio/a49e90ec82ba0ceb.opus"
+        },
+        {
+         "id": "s_0366",
+         "register": "idiomatic",
+         "fr": "Quand tu veux !",
+         "en": "Whenever you want!",
+         "audio": "audio/ecec55b74410110b.opus"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "question_words_02",
+     "title": "Question Words · Unit 2",
+     "videoBil": "units/question_words_02_bilingual.mp4",
+     "videoFr": "units/question_words_02_french.mp4",
+     "words": [
+      {
+       "id": "fr_0123",
+       "word": "pourquoi",
+       "pos": "adverb",
+       "gender": null,
+       "meaning": "why",
+       "spoken": "pourquoi",
+       "audio": "audio/e310631234deed8e.opus",
+       "sentences": [
+        {
+         "id": "s_0367",
+         "register": "formal_statement",
+         "fr": "Pourquoi apprenez-vous le français ?",
+         "en": "Why are you learning French?",
+         "audio": "audio/355db7b54a3cbaec.opus"
+        },
+        {
+         "id": "s_0368",
+         "register": "casual_question",
+         "fr": "Tu pars ? Pourquoi ?",
+         "en": "You're leaving? Why?",
+         "audio": "audio/c2bde16a60bd0f79.opus"
+        },
+        {
+         "id": "s_0369",
+         "register": "idiomatic",
+         "fr": "Pourquoi pas ?",
+         "en": "Why not?",
+         "audio": "audio/47dac428b3927ae5.opus"
+        }
+       ]
+      },
+      {
+       "id": "fr_0124",
+       "word": "comment",
+       "pos": "adverb",
+       "gender": null,
+       "meaning": "how",
+       "spoken": "comment",
+       "audio": "audio/e519a76703a0f9bf.opus",
+       "sentences": [
+        {
+         "id": "s_0370",
+         "register": "formal_statement",
+         "fr": "Comment allez-vous ?",
+         "en": "How are you?",
+         "audio": "audio/7c4448073d184897.opus"
+        },
+        {
+         "id": "s_0371",
+         "register": "casual_question",
+         "fr": "Comment tu t'appelles ?",
+         "en": "What's your name?",
+         "audio": "audio/e7f517e9677e9ad6.opus"
+        },
+        {
+         "id": "s_0372",
+         "register": "idiomatic",
+         "fr": "Comment dit-on « hello » en français ?",
+         "en": "How do you say 'hello' in French?",
+         "audio": "audio/89044f841aa48ab3.opus"
+        }
+       ]
+      },
+      {
+       "id": "fr_0125",
+       "word": "combien",
+       "pos": "adverb",
+       "gender": null,
+       "meaning": "how much / how many",
+       "spoken": "combien",
+       "audio": "audio/a23a7fed3cd7e399.opus",
+       "sentences": [
+        {
+         "id": "s_0373",
+         "register": "formal_statement",
+         "fr": "Combien coûte ce livre, s'il vous plaît ?",
+         "en": "How much does this book cost, please?",
+         "audio": "audio/a4cf5890a70f2b3d.opus"
+        },
+        {
+         "id": "s_0374",
+         "register": "casual_question",
+         "fr": "Ça coûte combien ?",
+         "en": "How much does it cost?",
+         "audio": "audio/77b9a8b9556ed27e.opus"
+        },
+        {
+         "id": "s_0375",
+         "register": "idiomatic",
+         "fr": "Combien de sucres dans ton café ?",
+         "en": "How many sugars in your coffee?",
+         "audio": "audio/17c790bf93311d8d.opus"
+        }
+       ]
+      },
+      {
+       "id": "fr_0126",
+       "word": "quel",
+       "pos": "determiner",
+       "gender": null,
+       "meaning": "which / what (masculine)",
+       "spoken": "quel",
+       "audio": "audio/03ece4a99313a3fb.opus",
+       "sentences": [
+        {
+         "id": "s_0376",
+         "register": "formal_statement",
+         "fr": "Quel est votre nom ?",
+         "en": "What is your name?",
+         "audio": "audio/b8cfebf64a9a3b7f.opus"
+        },
+        {
+         "id": "s_0377",
+         "register": "casual_question",
+         "fr": "Quel âge tu as ?",
+         "en": "How old are you?",
+         "audio": "audio/d39a44dc0115be2d.opus"
+        },
+        {
+         "id": "s_0378",
+         "register": "idiomatic",
+         "fr": "Quel beau temps !",
+         "en": "What beautiful weather!",
+         "audio": "audio/418cf5febc2f3d28.opus"
+        }
+       ]
+      },
+      {
+       "id": "fr_0127",
+       "word": "quelle",
+       "pos": "determiner",
+       "gender": null,
+       "meaning": "which / what (feminine)",
+       "spoken": "quelle",
+       "audio": "audio/65dfa23fc1cd2fd6.opus",
+       "sentences": [
+        {
+         "id": "s_0379",
+         "register": "formal_statement",
+         "fr": "Quelle heure est-il ?",
+         "en": "What time is it?",
+         "audio": "audio/7a0269853624fd69.opus"
+        },
+        {
+         "id": "s_0380",
+         "register": "casual_question",
+         "fr": "Tu préfères quelle couleur ?",
+         "en": "Which color do you prefer?",
+         "audio": "audio/d18242bc6c8a9089.opus"
+        },
+        {
+         "id": "s_0381",
+         "register": "idiomatic",
+         "fr": "Quelle bonne idée !",
+         "en": "What a good idea!",
+         "audio": "audio/f8f0bf401afb5a7e.opus"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "topic": "basic_adjectives",
+   "title": "Basic Adjectives",
+   "units": [
+    {
+     "id": "basic_adjectives_01",
+     "title": "Basic Adjectives · Unit 1",
+     "videoBil": "units/basic_adjectives_01_bilingual.mp4",
+     "videoFr": "units/basic_adjectives_01_french.mp4",
+     "words": [
+      {
+       "id": "fr_0208",
+       "word": "grand",
+       "pos": "adjective",
+       "gender": null,
+       "meaning": "big / tall",
+       "spoken": "grand",
+       "audio": "audio/064ef6e50005cec9.opus",
+       "sentences": [
+        {
+         "id": "s_0622",
+         "register": "formal_statement",
+         "fr": "Paris est une grande ville.",
+         "en": "Paris is a big city.",
+         "audio": "audio/d8f9e68ae8c5d289.opus"
+        },
+        {
+         "id": "s_0623",
+         "register": "casual_question",
+         "fr": "Ton frère est grand ?",
+         "en": "Is your brother tall?",
+         "audio": "audio/2bd1d4ee36b6ee7a.opus"
+        },
+        {
+         "id": "s_0624",
+         "register": "idiomatic",
+         "fr": "C'est un grand jour !",
+         "en": "It's a big day!",
+         "audio": "audio/7a9907cbbed94e81.opus"
+        }
+       ]
+      },
+      {
+       "id": "fr_0209",
+       "word": "petit",
+       "pos": "adjective",
+       "gender": null,
+       "meaning": "small",
+       "spoken": "petit",
+       "audio": "audio/fca9076cf1d4091b.opus",
+       "sentences": [
+        {
+         "id": "s_0625",
+         "register": "formal_statement",
+         "fr": "Nous avons un petit appartement.",
+         "en": "We have a small apartment.",
+         "audio": "audio/f0533683c881eb49.opus"
+        },
+        {
+         "id": "s_0626",
+         "register": "casual_question",
+         "fr": "Tu prends un petit café ?",
+         "en": "Will you have a quick coffee?",
+         "audio": "audio/b71aa5192d90d0ee.opus"
+        },
+        {
+         "id": "s_0627",
+         "register": "idiomatic",
+         "fr": "Petit à petit !",
+         "en": "Little by little!",
+         "audio": "audio/058d2e98910eb1e9.opus"
+        }
+       ]
+      },
+      {
+       "id": "fr_0210",
+       "word": "bon",
+       "pos": "adjective",
+       "gender": null,
+       "meaning": "good",
+       "spoken": "bon",
+       "audio": "audio/0c0cc899bf9e97be.opus",
+       "sentences": [
+        {
+         "id": "s_0628",
+         "register": "formal_statement",
+         "fr": "Ce restaurant est très bon.",
+         "en": "This restaurant is very good.",
+         "audio": "audio/1d5ee5c972977593.opus"
+        },
+        {
+         "id": "s_0629",
+         "register": "casual_question",
+         "fr": "Le café est bon ?",
+         "en": "Is the coffee good?",
+         "audio": "audio/94e826b912612a9b.opus"
+        },
+        {
+         "id": "s_0630",
+         "register": "idiomatic",
+         "fr": "Bonne idée !",
+         "en": "Good idea!",
+         "audio": "audio/35cd0a9cf5412a13.opus"
+        }
+       ]
+      },
+      {
+       "id": "fr_0211",
+       "word": "mauvais",
+       "pos": "adjective",
+       "gender": null,
+       "meaning": "bad",
+       "spoken": "mauvais",
+       "audio": "audio/c3e2715f09354964.opus",
+       "sentences": [
+        {
+         "id": "s_0631",
+         "register": "formal_statement",
+         "fr": "Le film est mauvais.",
+         "en": "The movie is bad.",
+         "audio": "audio/50effbcf97205d1c.opus"
+        },
+        {
+         "id": "s_0632",
+         "register": "casual_question",
+         "fr": "Tu as une mauvaise note ?",
+         "en": "Did you get a bad grade?",
+         "audio": "audio/7705cbfaa1cb3cea.opus"
+        },
+        {
+         "id": "s_0633",
+         "register": "idiomatic",
+         "fr": "Mauvaise journée…",
+         "en": "Bad day…",
+         "audio": "audio/1d842eb4111fd0a0.opus"
+        }
+       ]
+      },
+      {
+       "id": "fr_0212",
+       "word": "chaud",
+       "pos": "adjective",
+       "gender": null,
+       "meaning": "hot",
+       "spoken": "chaud",
+       "audio": "audio/e86f638488068022.opus",
+       "sentences": [
+        {
+         "id": "s_0634",
+         "register": "formal_statement",
+         "fr": "Attention, le plat est chaud !",
+         "en": "Careful, the dish is hot!",
+         "audio": "audio/4ca07bdc7bbe597a.opus"
+        },
+        {
+         "id": "s_0635",
+         "register": "casual_question",
+         "fr": "Ton café est encore chaud ?",
+         "en": "Is your coffee still hot?",
+         "audio": "audio/88221f6685f8c06d.opus"
+        },
+        {
+         "id": "s_0636",
+         "register": "idiomatic",
+         "fr": "Chaud devant !",
+         "en": "Hot stuff, coming through!",
+         "audio": "audio/b10cb9e1bd6c8ce1.opus"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "basic_adjectives_02",
+     "title": "Basic Adjectives · Unit 2",
+     "videoBil": "units/basic_adjectives_02_bilingual.mp4",
+     "videoFr": "units/basic_adjectives_02_french.mp4",
+     "words": [
+      {
+       "id": "fr_0213",
+       "word": "froid",
+       "pos": "adjective",
+       "gender": null,
+       "meaning": "cold",
+       "spoken": "froid",
+       "audio": "audio/b47658d1ec0eb359.opus",
+       "sentences": [
+        {
+         "id": "s_0637",
+         "register": "formal_statement",
+         "fr": "L'eau est froide.",
+         "en": "The water is cold.",
+         "audio": "audio/6584c7f04879db3f.opus"
+        },
+        {
+         "id": "s_0638",
+         "register": "casual_question",
+         "fr": "Tu as froid ?",
+         "en": "Are you cold?",
+         "audio": "audio/992e81f1a0fd84e1.opus"
+        },
+        {
+         "id": "s_0639",
+         "register": "idiomatic",
+         "fr": "Quel froid !",
+         "en": "How cold it is!",
+         "audio": "audio/164e8a348ac5a076.opus"
+        }
+       ]
+      },
+      {
+       "id": "fr_0214",
+       "word": "nouveau",
+       "pos": "adjective",
+       "gender": null,
+       "meaning": "new",
+       "spoken": "nouveau",
+       "audio": "audio/4cc92ca91c848362.opus",
+       "sentences": [
+        {
+         "id": "s_0640",
+         "register": "formal_statement",
+         "fr": "Nous avons un nouveau professeur.",
+         "en": "We have a new teacher.",
+         "audio": "audio/59daab224e4b99c0.opus"
+        },
+        {
+         "id": "s_0641",
+         "register": "casual_question",
+         "fr": "C'est ta nouvelle voiture ?",
+         "en": "Is that your new car?",
+         "audio": "audio/de07ed9d7cdcfc43.opus"
+        },
+        {
+         "id": "s_0642",
+         "register": "idiomatic",
+         "fr": "Quoi de nouveau ?",
+         "en": "What's new?",
+         "audio": "audio/218ed89fd90e25a2.opus"
+        }
+       ]
+      },
+      {
+       "id": "fr_0215",
+       "word": "vieux",
+       "pos": "adjective",
+       "gender": null,
+       "meaning": "old",
+       "spoken": "vieux",
+       "audio": "audio/2572bb56f8150c18.opus",
+       "sentences": [
+        {
+         "id": "s_0643",
+         "register": "formal_statement",
+         "fr": "C'est un vieux quartier de la ville.",
+         "en": "It's an old part of the city.",
+         "audio": "audio/31bc4031790d96da.opus"
+        },
+        {
+         "id": "s_0644",
+         "register": "casual_question",
+         "fr": "Ton vélo est vieux ?",
+         "en": "Is your bike old?",
+         "audio": "audio/0a2c8aae6c95fa6f.opus"
+        },
+        {
+         "id": "s_0645",
+         "register": "idiomatic",
+         "fr": "Cette vieille maison est belle !",
+         "en": "This old house is beautiful!",
+         "audio": "audio/1eceb67c6008f77d.opus"
+        }
+       ]
+      },
+      {
+       "id": "fr_0216",
+       "word": "jeune",
+       "pos": "adjective",
+       "gender": null,
+       "meaning": "young",
+       "spoken": "jeune",
+       "audio": "audio/806fa8f43dc50779.opus",
+       "sentences": [
+        {
+         "id": "s_0646",
+         "register": "formal_statement",
+         "fr": "Le nouveau médecin est jeune.",
+         "en": "The new doctor is young.",
+         "audio": "audio/c7f6d0cdc10fa1a1.opus"
+        },
+        {
+         "id": "s_0647",
+         "register": "casual_question",
+         "fr": "Elle est jeune, ta prof ?",
+         "en": "Is she young, your teacher?",
+         "audio": "audio/738670fea351e3d0.opus"
+        },
+        {
+         "id": "s_0648",
+         "register": "idiomatic",
+         "fr": "Il est encore jeune !",
+         "en": "He's still young!",
+         "audio": "audio/3b1492ec178b1ddd.opus"
+        }
+       ]
+      },
+      {
+       "id": "fr_0217",
+       "word": "facile",
+       "pos": "adjective",
+       "gender": null,
+       "meaning": "easy",
+       "spoken": "facile",
+       "audio": "audio/3341c35cb5b783f6.opus",
+       "sentences": [
+        {
+         "id": "s_0649",
+         "register": "formal_statement",
+         "fr": "Cet exercice est facile.",
+         "en": "This exercise is easy.",
+         "audio": "audio/28dfda18d3a221c1.opus"
+        },
+        {
+         "id": "s_0650",
+         "register": "casual_question",
+         "fr": "Le test est facile ?",
+         "en": "Is the test easy?",
+         "audio": "audio/9d3dc66663942e6c.opus"
+        },
+        {
+         "id": "s_0651",
+         "register": "idiomatic",
+         "fr": "Facile à dire !",
+         "en": "Easy to say!",
+         "audio": "audio/673fec14f0affbf7.opus"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

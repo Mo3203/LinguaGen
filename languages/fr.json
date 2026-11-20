@@ -1,0 +1,92 @@
+{
+  "code": "fr",
+  "name": "French",
+  "locale": "fr-FR",
+  "appName": "French Study",
+  "shortName": "French",
+  "unitPrefix": "",
+  "videoSuffix": "french",
+  "speech": {
+    "adapter": "kokoro",
+    "voice": "ff_siwis",
+    "lang_code": "f",
+    "version": "kokoro-82M/ff_siwis/v1",
+    "fallback": {
+      "adapter": "edge",
+      "voice": "fr-FR-DeniseNeural",
+      "version": "edge-tts/fr-FR-DeniseNeural/v1"
+    }
+  },
+  "partsOfSpeech": [
+    "adjective",
+    "adverb",
+    "conjunction",
+    "determiner",
+    "interjection",
+    "noun",
+    "number",
+    "phrase",
+    "preposition",
+    "pronoun",
+    "verb"
+  ],
+  "genders": {
+    "m": "Masculine",
+    "f": "Feminine"
+  },
+  "citation": {
+    "articles": {
+      "m": "un",
+      "f": "une"
+    },
+    "pluralArticle": "des",
+    "pluralEndings": [
+      "s",
+      "x"
+    ],
+    "pluralExceptions": [
+      "bois",
+      "bras",
+      "pays"
+    ],
+    "noArticle": []
+  },
+  "titleWithArticle": false,
+  "titleWithPlural": false,
+  "characters": [
+    "é",
+    "è",
+    "ê",
+    "à",
+    "ù",
+    "ç",
+    "î",
+    "ô",
+    "û",
+    "ë",
+    "ï",
+    "œ"
+  ],
+  "registers": [
+    "formal_statement",
+    "casual_question",
+    "idiomatic"
+  ],
+  "prompt": {
+    "languageName": "French",
+    "styleSetting": "everyday French life",
+    "stylePrefix": "Warm watercolor illustration, soft natural light, everyday French life, consistent flat-color palette, no text or letters in the image",
+    "scriptVersion": "llama3.1:8b/prompt-v1"
+  },
+  "labels": {
+    "greeting": "Bonjour",
+    "targetToNative": "French to English",
+    "nativeToTarget": "English to French",
+    "targetOnly": "French only",
+    "targetWord": "French word"
+  },
+  "deploy": {
+    "site": "stractured-french-study"
+  },
+  "laptopPort": 8000
+}
