@@ -1,0 +1,20 @@
+# heavy, regenerable
+work/**/audio/
+work/**/images/
+work/**/video*/
+work/**/build/
+work/**/builds/
+build/
+builds/
+*.mp3
+*.wav
+*.mp4
+language_system_production.zip
+
+# tooling / secrets
+node_modules/
+app/dist/
+.env
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
