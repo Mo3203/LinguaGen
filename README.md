@@ -207,7 +207,6 @@ Three generative models do the creative work, and they all run on a free cloud G
 | **Learning logic** | Hand-written spaced-repetition scheduler (interval, ease factor, repetitions, lapses) · dictation comparison with accent and ß equivalences · session state machine |
 | **Offline and install** | Service worker (network-first shell and manifest, cache-first media, byte-range support for video) · web app manifest for phone install |
 | **Hosting and deploy** | Netlify static hosting, deployed through its API by `bin/publish.py`, which sends only files whose fingerprints changed |
-| **Source control** | GitHub |
 | **Reproducibility** | Exact-pinned dependencies (`package-lock.json`, `requirements.txt`) · content-addressed artefacts |
 
 ---
