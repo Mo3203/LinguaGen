@@ -1,10 +1,10 @@
 <div align="center">
 
-# Language Acquisition System
+# LinguaGen
 
-**Turn a vocabulary spreadsheet into a complete, offline language-study app.**
+**A generative-AI pipeline that turns a word list into a complete, offline language course.**
 
-Illustrated sentences · spoken recordings · measured practice audio · unit videos · a phone-installable study app
+Local LLM scene scripts · neural speech · diffusion illustrations · measured video units · an installable React app
 
 ![Python](https://img.shields.io/badge/pipeline-Python-3776AB?logo=python&logoColor=white)
 ![React](https://img.shields.io/badge/app-React%2018-61DAFB?logo=react&logoColor=black)
@@ -24,6 +24,14 @@ Illustrated sentences · spoken recordings · measured practice audio · unit vi
 
 <br>
 
+## About
+
+**LinguaGen** is an end-to-end generative-AI system that turns a plain vocabulary spreadsheet into a finished language course. A nine-stage Python pipeline orchestrates three local models on a free cloud GPU: a large language model writes a scene for every word, a neural voice speaks it, and a diffusion model illustrates it. The results are assembled into timed study units and shipped as a React app that installs on a phone and works offline.
+
+The engineering focus is making generative models **dependable in production**: reproducible outputs around non-deterministic models, validation before compute is spent, audio, video and app behaviour driven from one measured timeline, and a design where swapping any model re-runs only its own stage. It runs with no hosted AI services, no recurring cost, and no AI calls at study time.
+
+The learner follows a fixed six-step method (guided video, listening dictation, reading check, two-way recall, exercises) with a spaced-repetition scheduler, and progress is saved after every pass. French is complete. German is in production and already live. Adding another language takes a dataset and a one-file profile, with no code changes.
+
 <table>
   <tr>
     <td align="center" width="25%"><img src="docs/images/06-app-study-home.png" alt="Study home screen" width="100%"><br><sub><b>Study</b><br>topics, resume, scheduled review</sub></td>
@@ -41,6 +49,8 @@ Illustrated sentences · spoken recordings · measured practice audio · unit vi
 
 ## Contents
 
+- [About](#about)
+- [Engineering highlights](#engineering-highlights)
 - [What it is](#what-it-is)
 - [What it produces](#what-it-produces)
 - [The learning method](#the-learning-method)
@@ -53,6 +63,22 @@ Illustrated sentences · spoken recordings · measured practice audio · unit vi
 - [Operating notes](#operating-notes)
 - [Roadmap](#roadmap)
 - [Documentation](#documentation)
+
+---
+
+## Engineering highlights
+
+| Theme | What was built |
+|---|---|
+| **Multi-model orchestration** | One resumable pipeline coordinates a language model, a text-to-speech model and a diffusion model. Each stage reads and writes a defined file contract, so stages can be re-run, replaced or inspected independently. |
+| **Reproducibility around non-deterministic models** | Every artefact is named by a hash of its input plus a component version string. Change a model, bump its version, and only that stage regenerates. Identical inputs are deduplicated, and outputs from different machines merge by copying folders. |
+| **Validation before compute** | A Pandera schema gates the dataset before any GPU time is spent. Nothing downstream runs on bad input. |
+| **Multimodal alignment** | The real duration of every synthesised segment is measured. Audio assembly, video frames and the app's guided pauses are all driven from the same timing table. |
+| **Handling generative variance** | Language-model output differs on every run, so scene scripts are saved as masters and backed up outside the working drive, while recordings, images and videos are treated as regenerable. |
+| **Local inference, zero recurring cost** | Models run on a free T4 GPU. No hosted AI APIs, no keys, no per-use fees, and no AI calls at study time, so a finished course keeps working indefinitely. |
+| **Operator tooling** | A Gradio production panel runs the whole pipeline from one button and survives session disconnects, because finished work is skipped on the next run. |
+| **Clean interfaces** | Voices sit behind an adapter interface. The app core talks to content, media and state through three ports. The pipeline and the app meet only at a file contract, so adding a language means supplying a dataset and a profile. |
+| **Shipped, not a demo** | A live German app (600 words, 136 units, 39 topics) and a finished French course (590 words, 1,770 sentence recordings, 1,768 illustrations, 258 videos). |
 
 ---
 
